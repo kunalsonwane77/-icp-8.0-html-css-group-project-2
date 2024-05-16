@@ -18,7 +18,7 @@ html,body{
     height: 100px;
 }
 .heading{
-    font-family: "Titan One", sans-serif;
+  font-family: "Titan One", sans-serif;
   font-weight: 400;
   font-style: normal;
     text-align: center;
@@ -40,10 +40,11 @@ html,body{
 }
 .address-detail{
           display: flex;
-          justify-content: space-evenly;
+          justify-content: space-evenly;  
+          height: 29vh;
 }
 .info{
-    background-color: ;
+  
     height: 20vh;
     width: 20vw;
     margin-top: 50px;
@@ -58,6 +59,22 @@ html,body{
     border: 1px solid #3c1c11;
     padding: 10px;
     height: 61px;
+}
+.last-container{
+  
+  display: flex;
+  width: 70vw;
+  margin: 0 auto;
+
+}
+.last-image{
+    border-radius: 20px;
+    height: 500px;
+}
+.last-heading{
+    font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
   
