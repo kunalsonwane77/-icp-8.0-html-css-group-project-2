@@ -43,14 +43,14 @@ html,body{
 }
 .address-detail{
           display: flex;
-          justify-content: space-evenly;  
+          justify-content: center;  
+          gap: 9vw;
           height: 29vh;
           margin-top: 3vh;
 }
 .info{
-  
-    height: 20vh;
-    width: 20vw;
+    height: 15vh;
+    width: 17vw;
     margin-top: 50px;
     margin-bottom: 200px;
     display: flex;
@@ -69,11 +69,10 @@ html,body{
   display: flex;
   width: 70vw;
   margin: 0 auto;
-  margin-top: 9vh;
+  margin-top:15px;
 }
 .last-image{
     border-radius: 25px;
-    height: 500px;
     height: 30vh;
     width: 20vw;
     margin-left: 90px;
@@ -95,14 +94,51 @@ html,body{
     color: #3c1c11;
     text-align: justify;
 }
-.btn1{
+.btn{
        margin-left:25vw ;
        margin-top: 27px;
        padding: 20px;
        font-size: larger;
        color: #3c1c11;
-      
+}
+.last-container1{
+    display: flex;
+    width: 70vw;
+    margin: 0 auto;
+    margin-top:15vh;
+   
+}
+.last-heading1{
 
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    color: #3c1c11;
+    margin-left: 90px;
+}
+.last-image1{
+    border-radius: 25px;
+    height: 30vh;
+    width: 20vw;
+    margin-left: 9vw;
+}
+.last-para1{
+    margin-top: 25px;
+    font-size: 15px;
+    font-family: "Poetsen One", sans-serif;
+    font-style: normal;
+    color: #3c1c11;
+    text-align: justify;
+    margin-left: 90px;
+
+}
+.btn1{
+       margin-left:19vw ;
+       margin-top: 27px;
+       padding: 20px;
+       font-size: larger;
+       color: #3c1c11;
 }
 
   
