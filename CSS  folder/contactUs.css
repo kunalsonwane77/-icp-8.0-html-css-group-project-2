@@ -38,5 +38,26 @@ html,body{
     width: 70vw;
     margin: 60px auto 0 auto;
 }
+.address-detail{
+          display: flex;
+          justify-content: space-evenly;
+}
+.info{
+    background-color: ;
+    height: 20vh;
+    width: 20vw;
+    margin-top: 50px;
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.info img{
+    border-radius: 50%;
+    border: 1px solid #3c1c11;
+    padding: 10px;
+    height: 61px;
+}
 
   
