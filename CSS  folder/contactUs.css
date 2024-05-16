@@ -6,6 +6,7 @@
     box-sizing: border-box;
     font-family: 'Gilroy';
     background-color: #e7d8c4;
+    scroll-behavior: smooth;
 }
 
 html,body{
@@ -28,9 +29,11 @@ html,body{
 }
 .sub-heading{
     text-align: center;
-    margin-top: 25px;
+    margin-top: 24px;
     color: #3c1c11;
     font-size: 18px;
+    font-family: "Poetsen One", sans-serif;
+    font-style: normal;
 }
 .container{
     background-color: #f5ede3;
@@ -42,6 +45,7 @@ html,body{
           display: flex;
           justify-content: space-evenly;  
           height: 29vh;
+          margin-top: 3vh;
 }
 .info{
   
@@ -65,16 +69,40 @@ html,body{
   display: flex;
   width: 70vw;
   margin: 0 auto;
-
+  margin-top: 9vh;
 }
 .last-image{
-    border-radius: 20px;
+    border-radius: 25px;
     height: 500px;
+    height: 30vh;
+    width: 20vw;
+    margin-left: 90px;
 }
 .last-heading{
-    font-family: "Poetsen One", sans-serif;
+  font-family: "Poetsen One", sans-serif;
   font-weight: 400;
   font-style: normal;
+  margin-left: 14vw;
+  font-size: 50px;
+  color: #3c1c11;
+}
+.last-para{
+    margin-left: 9vw;
+    margin-top: 25px;
+    font-size: 15px;
+    font-family: "Poetsen One", sans-serif;
+    font-style: normal;
+    color: #3c1c11;
+    text-align: justify;
+}
+.btn1{
+       margin-left:25vw ;
+       margin-top: 27px;
+       padding: 20px;
+       font-size: larger;
+       color: #3c1c11;
+      
+
 }
 
   
