@@ -37,50 +37,86 @@ html,body{
 }
 .container{
     background-color: #f5ede3;
-    height: 60vh;
+    height: 67vh;
     width: 69vw;
     margin: 60px auto 0 auto;
+    padding: 30px;
     border-radius: 20px;
-    padding: 20px;
-    padding-left: 30px;
+    padding-right: 40px;
+}
+.main{
+     height: 100%;
+     width: 100%;   
+    display: flex;
+    background-color: #f5ede3; 
+}
+.input-boxes{
+    height: 100%;
+    width: 50%;
+    padding-right: 30px;
+    background-color: #f5ede3; 
+
+}
+
+.cont-img{
+height: 100%;
+width: 50%;
+padding-right: 50px;
+padding-left: 40px;
+background-color: #f5ede3; 
+
+
+
 }
 .input{
-    width: 50%;
+    background-color: #f5ede3; 
     display: flex;
-    gap: 30px;
-    margin-top: 20px;
-    background-color: #f5ede3;
- 
+    gap:50px; 
+    padding-bottom: 30px;
 }
-.input-box{
+.input-field{
     height: 40px;
     width: 14vw;
     background-color: #f5ede3;
 }
-.input-bigbox{
-    
-    height: 17vh;
-    width: 30vw;
+.big-input{
+    width: 32vw;
+    height: 20vh;
     background-color: #f5ede3;
+    margin-bottom: 44px;
 }
-b{
-    width: fit-content;
+.cont-button{
+    background-color: #f5ede3;
+    margin-left: 10vw;
+   
 }
 .con-button{
-    background-color: #f5ede3;
     display: block;
-    margin-left: 10vw;
-    margin-top: 25px;
+    margin: 0 auto;
     padding: 10px;
-    font-size: small;
+    font-size: large;
     color: #3c1c11;
     width: 10vw;
+    background-color: #f5ede3; 
 }
-/* .image-start{
-    border-radius: 20px;
+.start-image{
     height: 50vh;
-    width: 25vw;
-} */
+    width: 28vw;
+    background-color: #f5ede3; 
+    display: block;
+    margin: 0 auto;
+    margin-top: 24px;
+    border-radius: 10px;
+    
+}
+
+
+
+
+
+
+
+
 
 .address-detail{
           display: flex;
