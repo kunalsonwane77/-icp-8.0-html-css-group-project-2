@@ -38,26 +38,49 @@ html,body{
 .container{
     background-color: #f5ede3;
     height: 60vh;
-    width: 70vw;
+    width: 69vw;
     margin: 60px auto 0 auto;
-    display: flex;
-    padding: 20px;
     border-radius: 20px;
+    padding: 20px;
+    padding-left: 30px;
 }
-.detail-info{
-      
+.input{
     width: 50%;
-    height: 100%;
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    background-color: #f5ede3;
+ 
 }
-
-.image-start{
-    margin: 0 auto;
+.input-box{
+    height: 40px;
+    width: 14vw;
+    background-color: #f5ede3;
+}
+.input-bigbox{
+    
+    height: 17vh;
+    width: 30vw;
+    background-color: #f5ede3;
+}
+b{
+    width: fit-content;
+}
+.con-button{
+    background-color: #f5ede3;
+    display: block;
+    margin-left: 10vw;
+    margin-top: 25px;
+    padding: 10px;
+    font-size: small;
+    color: #3c1c11;
+    width: 10vw;
+}
+/* .image-start{
     border-radius: 20px;
     height: 50vh;
     width: 25vw;
-    margin-top: 15px;
-    
-}
+} */
 
 .address-detail{
           display: flex;
