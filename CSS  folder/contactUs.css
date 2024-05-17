@@ -5,7 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Gilroy';
-    background-color: #e7d8c4;
+    background-color: #e9d4b9;
     scroll-behavior: smooth;
 }
 
@@ -38,11 +38,12 @@ html,body{
 .container{
     background-color: #f5ede3;
     height: 67vh;
-    width: 69vw;
+    width: 68vw;
     margin: 60px auto 0 auto;
     padding: 30px;
+    padding-left: 45px;
     border-radius: 20px;
-    padding-right: 40px;
+    padding-right: 30px;
 }
 .main{
      height: 100%;
@@ -61,11 +62,9 @@ html,body{
 .cont-img{
 height: 100%;
 width: 50%;
-padding-right: 50px;
+padding-right: 40px;
 padding-left: 40px;
 background-color: #f5ede3; 
-
-
 
 }
 .input{
@@ -73,17 +72,30 @@ background-color: #f5ede3;
     display: flex;
     gap:50px; 
     padding-bottom: 30px;
+   
+}
+b{
+    background-color: #f5ede3;
+    color: #3c1c11;
 }
 .input-field{
     height: 40px;
     width: 14vw;
     background-color: #f5ede3;
+    border: 2px solid gray;
+    border-radius: 5px;
+    color: #3c1c11;
+    padding: 10px;
 }
 .big-input{
-    width: 32vw;
+    width: 31vw;
     height: 20vh;
     background-color: #f5ede3;
     margin-bottom: 44px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    color: #3c1c11;
+    padding: 10px;
 }
 .cont-button{
     background-color: #f5ede3;
@@ -98,6 +110,8 @@ background-color: #f5ede3;
     color: #3c1c11;
     width: 10vw;
     background-color: #f5ede3; 
+    border: 2px solid gray;
+    border-radius: 5px;
 }
 .start-image{
     height: 50vh;
