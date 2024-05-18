@@ -38,9 +38,11 @@ html,body{
 
 .contact-container{
     width: 80%;
-    background-color: #f5ede3;
+    background-color: #e9d4b9;
+    box-shadow: 0 0 10px 5px #f5e1c6;
     margin: auto;
     border-radius: 20px;
+    margin-top: 70px;
 }
 .container{
     display: flex;
@@ -51,21 +53,36 @@ html,body{
     flex-direction: column;
     align-items: start;
     gap: 30px;
-    margin-left: 70px;
+    margin-left: 80px;
     margin-top: 60px;
 }
+label{
+    margin-bottom: -15px;
+    margin-left: 15px;
+    color: #3c1c11;
+    font-size: 14px;
+    font-family: "Poetsen One", sans-serif;
+    font-style: normal;
+}
 .input-box{
-    height: 40px;
-    width: 22vw;
+    height: 50px;
+    width: 25vw;
     border-radius: 20px;
     padding: 10px;
-    border: 2px solid gray;
+    border: 2px solid #3c1c11;
+    color: #3c1c11;
+    font-family: "Poetsen One", sans-serif;
+    font-style: normal;
+
 }
 .textarea-box{
 
     border-radius: 20px;
     padding: 10px;
-    border: 2px solid gray;
+    border: 2px solid #3c1c11;
+    color: #3c1c11;
+    font-family: "Poetsen One", sans-serif;
+    font-style: normal;
     
 }
 .contact-details h2{
@@ -77,13 +94,16 @@ html,body{
 }
 .container-button{
     padding: 10px;
-    background-color: aqua;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
+    width: 8vw;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 40px;
     font-size: large;
-    border-radius: 20px;
+    border: 2px solid #3c1c11;
+    border-radius: 5px;
+    background-color: #3c1c11;
+    color: white;
+    
 }
 .container-button img{
 
@@ -92,7 +112,7 @@ html,body{
 }
 .image-container{
     margin-right: 30px;
-    margin-top: 40px;
+    margin-top: 70px;
    
 }
 .image-container img{
