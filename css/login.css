@@ -8,7 +8,7 @@ body {
   font-family: "Catamaran", sans-serif;
   line-height: 250%;
   color: black;
-  background-color: rgb(245, 245, 245);
+  background-color:#f5f7fb;
   font-size: 18px;
 }
 
@@ -95,8 +95,10 @@ ul {
 .login .login-form {
   width: 350px;
   margin-top: 30px;
-  border: 1px solid #f0f0f0;
+  border: 1px solid white;
+  box-shadow: 50px white;
   padding: 35px 30px;
+  background-color: white;
 }
 
 .registration-form h4,
