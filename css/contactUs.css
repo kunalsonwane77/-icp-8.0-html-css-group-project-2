@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Titan+One&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,26 +9,68 @@
     scroll-behavior: smooth;
 }
 
-html,body{
+html,
+body {
     height: 100%;
     width: 100%;
     background-color: #f5f7fb;
 }
-#navbar{
-    width: 100%;
+
+/* navbar */
+
+.navbar {
+    font-size: 20px;
+    padding: 5px 0;
+    margin: 0%;
     background-color: #ffa4a4;
-    height: 60px;
 }
-.heading{
-  font-family: "Titan One", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  text-align: center;
-  font-size: 53px;
-   color: #3c1c11;
-   margin-top: 90px;
+
+
+.logo-1 {
+    font-family: Fantasy;
+    text-align: left;
+    margin-left: 0;
+    color: black;
 }
-.sub-heading{
+
+
+.navbar .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    border: none;
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-self: flex-end;
+    align-items: end;
+    justify-content: center;
+
+}
+
+.navbar a {
+    padding: 0 15px;
+
+}
+
+.navbar a:hover {
+    color: tomato;
+}
+
+.heading {
+    font-family: "Titan One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 53px;
+    color: #3c1c11;
+    margin-top: 90px;
+}
+
+.sub-heading {
     text-align: center;
     margin-top: 23px;
     color: #3c1c11;
@@ -36,7 +79,7 @@ html,body{
     font-style: normal;
 }
 
-.contact-container{
+.contact-container {
     width: 80%;
     background-color: white;
     box-shadow: 0 0 10px 5px #f5e1c6;
@@ -44,11 +87,13 @@ html,body{
     border-radius: 20px;
     margin-top: 70px;
 }
-.container{
+
+.container {
     display: flex;
     justify-content: space-between;
 }
-.contact-details{
+
+.contact-details {
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -56,7 +101,8 @@ html,body{
     margin-left: 80px;
     margin-top: 60px;
 }
-label{
+
+label {
     margin-bottom: -15px;
     margin-left: 15px;
     color: #3c1c11;
@@ -64,7 +110,8 @@ label{
     font-family: "Poetsen One", sans-serif;
     font-style: normal;
 }
-.input-box{
+
+.input-box {
     height: 50px;
     width: 25vw;
     border-radius: 20px;
@@ -75,7 +122,8 @@ label{
     font-style: normal;
 
 }
-.textarea-box{
+
+.textarea-box {
 
     border-radius: 20px;
     padding: 10px;
@@ -83,16 +131,18 @@ label{
     color: #3c1c11;
     font-family: "Poetsen One", sans-serif;
     font-style: normal;
-    
+
 }
-.contact-details h2{
+
+.contact-details h2 {
 
     font-weight: 600;
     color: #a363aa;
     font-size: 40px;
     margin-bottom: 5px;
 }
-.container-button{
+
+.container-button {
     padding: 10px;
     width: 8vw;
     display: block;
@@ -104,19 +154,22 @@ label{
     border-radius: 5px;
     background-color: #ffa4a4;
     color: white;
-    
-}
-.container-button img{
 
-      height: 25px;
-    
 }
-.image-container{
+
+.container-button img {
+
+    height: 25px;
+
+}
+
+.image-container {
     margin-right: 30px;
     margin-top: 70px;
-   
+
 }
-.image-container img{
+
+.image-container img {
     height: 60vh;
 }
 
@@ -128,14 +181,15 @@ label{
 
 
 
-.address-detail{
-          display: flex;
-          justify-content: center;  
-          gap: 9vw;
-          height: 29vh;
-          margin-top: 3vh;
+.address-detail {
+    display: flex;
+    justify-content: center;
+    gap: 9vw;
+    height: 29vh;
+    margin-top: 3vh;
 }
-.info{
+
+.info {
     height: 15vh;
     width: 17vw;
     margin-top: 50px;
@@ -145,34 +199,39 @@ label{
     align-items: center;
     gap: 20px;
 }
-.info img{
+
+.info img {
     border-radius: 50%;
     border: 1px solid #3c1c11;
     padding: 10px;
     height: 50px;
 }
-.last-container{
-  
-  display: flex;
-  width: 70vw;
-  margin: 0 auto;
-  margin-top:15px;
+
+.last-container {
+
+    display: flex;
+    width: 70vw;
+    margin: 0 auto;
+    margin-top: 15px;
 }
-.last-image{
+
+.last-image {
     border-radius: 25px;
     height: 30vh;
     width: 20vw;
     margin-left: 90px;
 }
-.last-heading{
-  font-family: "Poetsen One", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  margin-left: 14vw;
-  font-size: 30px;
-  color: #3c1c11;
+
+.last-heading {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 14vw;
+    font-size: 30px;
+    color: #3c1c11;
 }
-.last-para{
+
+.last-para {
     margin-left: 9vw;
     margin-top: 25px;
     font-size: 11px;
@@ -181,21 +240,24 @@ label{
     color: #3c1c11;
     text-align: justify;
 }
-.btn{
-       margin-left:25vw ;
-       margin-top: 27px;
-       padding: 10px;
-       font-size: small;
-       color: #3c1c11;
+
+.btn {
+    margin-left: 25vw;
+    margin-top: 27px;
+    padding: 10px;
+    font-size: small;
+    color: #3c1c11;
 }
-.last-container1{
+
+.last-container1 {
     display: flex;
     width: 70vw;
     margin: 0 auto;
-    margin-top:15vh;
-   
+    margin-top: 15vh;
+
 }
-.last-heading1{
+
+.last-heading1 {
 
     font-family: "Poetsen One", sans-serif;
     font-weight: 400;
@@ -204,13 +266,15 @@ label{
     color: #3c1c11;
     margin-left: 90px;
 }
-.last-image1{
+
+.last-image1 {
     border-radius: 25px;
     height: 30vh;
     width: 20vw;
     margin-left: 9vw;
 }
-.last-para1{
+
+.last-para1 {
     margin-top: 25px;
     font-size: 11px;
     font-family: "Poetsen One", sans-serif;
@@ -220,12 +284,11 @@ label{
     margin-left: 90px;
 
 }
-.btn1{
-       margin-left:19vw ;
-       margin-top: 27px;
-       padding: 10px;
-       font-size: small;
-       color: #3c1c11;
-}
 
-  
+.btn1 {
+    margin-left: 19vw;
+    margin-top: 27px;
+    padding: 10px;
+    font-size: small;
+    color: #3c1c11;
+}
