@@ -111,3 +111,26 @@ body{
     font-size: 1.5vw;
     border-bottom: 1.9px solid rgb(244, 246, 255);
 }
+
+
+input[type="text"],
+select {
+    width: 80%;
+    padding: 0.5vw;
+    border-radius: 5px;
+    border: none;
+}
+
+input[type="radio"] {
+    margin-left: 0.9vw;
+}
+
+.input-group {
+    margin-top: 0.8vw;
+}
+
+
+.input-group label {
+    display: block;
+    font-size: 1.2vw;
+}
