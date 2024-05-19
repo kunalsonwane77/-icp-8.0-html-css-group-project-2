@@ -1,12 +1,12 @@
 * {
-    box-sizing: border-box;
+
     margin: 0;
     padding: 0;
 }
 
 body {
     font-family: "Catamaran", sans-serif;
-    line-height: 1.6;
+    line-height: 250%;
     color: black;
     background-color: rgb(245, 245, 245);
     font-size: 18px;
@@ -93,7 +93,7 @@ ul {
   }
   
   .field-group {
-    margin: 1em 0;
+    margin: 25px 0;
   }
   
   .input {
