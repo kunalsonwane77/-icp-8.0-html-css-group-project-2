@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sell Book</title>
     <link rel="stylesheet" href="style-sellbook.css" />
 </head>
+
 <body>
     <div class="conatiner-holder">
         <div class="Nav-bar">
@@ -24,44 +26,83 @@
             <div class="text">
                 <p class="text-header">How to Sell<span class="red"> Book</span></p>
 
-                    <div class="step">
-                        <div class="text-img">
-                            <img src="./image/website.png" class="img-step" alt="register" />
-                            <div class="step-containe">
-                                <p class="step-txt">1.Simply Register</p>
-                                <p>Register via BookFlow app or web. You can create account socially also.</p>
-                            </div>
+                <div class="step">
+                    <div class="text-img">
+                        <img src="./image/website.png" class="img-step" alt="register" />
+                        <div class="step-containe">
+                            <p class="step-txt">1.Simply Register</p>
+                            <p>Register via BookFlow app or web. You can create account socially also.</p>
                         </div>
                     </div>
+                </div>
 
-                    <div class="step">
-                        <div class="text-img">
-                            <img src="./image/promotion.png" class="img-step" alt="ad-post" />
-                            <div class="step-containe">
-                                <p class="step-txt">2.Post Ad</p>
-                                <p>Fill required details and submit book ad you want to sell.</p>
-                            </div>
+                <div class="step">
+                    <div class="text-img">
+                        <img src="./image/promotion.png" class="img-step" alt="ad-post" />
+                        <div class="step-containe">
+                            <p class="step-txt">2.Post Ad</p>
+                            <p>Fill required details and submit book ad you want to sell.</p>
                         </div>
                     </div>
+                </div>
 
-                    <div class="step">
-                        <div class="text-img">
-                            <img src="./image/school.png" class="img-step" alt="help" />
-                            <div class="step-containe">
-                                <p class="step-txt">3.Need Help</p>
-                                <p>Wherever you stuck in process, just tap on floating chat icon on bottom left.</p>
-                            </div>
+                <div class="step">
+                    <div class="text-img">
+                        <img src="./image/school.png" class="img-step" alt="help" />
+                        <div class="step-containe">
+                            <p class="step-txt">3.Need Help</p>
+                            <p>Wherever you stuck in process, just tap on floating chat icon on bottom left.</p>
                         </div>
                     </div>
+                </div>
             </div>
-            
+
             <div class="form-function">
                 <p>Book Details:</p>
                 <form>
-                    
+                    <div class="input-group">
+                        <label>Ad Title</label>
+                        <input type="text" name="t1" placeholder="Enter your ad title" required />
+                    </div>
+
+                    <div class="input-group">
+                        <label>Book Type</label>
+                        <select name="t2">
+                            <option value="Mystery">Mystery</option>
+                            <option value="Horror">Horror</option>
+                            <option value="Novel">Novel</option>
+                            <option value="1-12 std">1-12 std</option>
+                            <option value="CBSC">CBSC</option>
+                        </select>
+                    </div>
+
+                    <div class="input-group">
+                        <label>Book Conditions</label>
+                        <input type="radio" value="Excellent" name="r1">Excellent</input>
+                        <input type="radio" value="Good" name="r1">Good</input>
+                        <input type="radio" value="Fair" name="r1">Fair</input>
+                    </div>
+
+                    <div class="input-group">
+                        <label>Upload Photos</label>
+                        <input type="file" accept="image/*, .pdf/*" required />
+                    </div>
+
+                    <div class="input-group">
+                        <label>Quantity</label>
+                        <input type="text" required />
+                    </div>
+
+                    <div class="input-group">
+                        <label>Your Price</label>
+                        <input type="text" required />
+                    </div>
+
+
                 </form>
             </div>
         </div>
     </div>
 </body>
+
 </html>
