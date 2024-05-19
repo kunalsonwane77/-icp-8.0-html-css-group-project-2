@@ -34,6 +34,15 @@ body{
     text-transform: uppercase;
 }
 
+.List-footer img {
+    width: 30px;
+}
+
+.List li a {
+    text-decoration: none;
+    color: black;
+}
+
 
 .containe-holder {
     width: 100%;
