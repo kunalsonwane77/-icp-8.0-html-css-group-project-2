@@ -1,142 +1,144 @@
 * {
-
-    margin: 0;
-    padding: 0;
+  
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: "Catamaran", sans-serif;
-    line-height: 250%;
-    color: black;
-    background-color: rgb(245, 245, 245);
-    font-size: 18px;
+  font-family: "Catamaran", sans-serif;
+  line-height: 250%;
+  color: black;
+  background-color: rgb(245, 245, 245);
+  font-size: 18px;
 }
 
 a {
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 .container {
-    max-width: 1100px;
-    margin: auto;
-    overflow: hidden;
-    padding: 0 32px;
+  max-width: 1100px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 30px;
 }
 
 /* navbar */
 
 .navbar {
-    font-size:20px;
-    padding: 5px 0;
-    background-color: #ffa4a4;
+  font-size:20px;
+  padding: 5px 0;
+  margin: 0%;
+  background-color: #ffa4a4;
 }
 
+
+.logo-1{
+  text-align: left;
+  margin-left: 0;
+}
+
+
 .navbar .container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 32px;
-    border: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  border: none;
 }
 
 .navbar ul {
-    display: flex;
-    justify-self: flex-end;
-    align-items: center;
-    justify-content: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-self: flex-end;
+  align-items: end;
+  justify-content: center;
 
 }
 
 .navbar a {
-    padding: 0 16px;
+  padding: 0 15px;
 
 }
 
 .navbar a:hover {
-    color: tomato;
+  color: tomato;
 }
 
 /* Login */
 
-.text-center {
-    text-align: center;
-  }
-  
-  .content {
-    display: flex;
-    display: block;
-  }
-  
-  .content-left {
-    background-color: #fff;
-  }
-  
-  
-  .form-wrapper {
-    width: 448px;
-    background-color: #fff;
-    padding: 48px 40px 36px;
-    margin: 0 auto;
-  }
-  .logo {
-    text-align: center;
-  }
-  
-  
-  .text-title {
-    text-align: center;
-    font-weight: 600;
-  }
-  
-  .field-group {
-    margin: 25px 0;
-  }
-  
-  .input {
-    padding: 0.5em 0 0.5em 1em;
-    width: 100%;
-    border: 2px solid rgb(36 28 21 / 30%);
-    border-radius: 10px;
-    box-sizing: border-box;
-  }
-  
-  .label-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  
-  .label {
-    display: flex;
-    align-items: center;
-    line-height: 2;
-  }
-  
-  .label--right {
-    cursor: pointer;
-    color: #e91e1e;
-  }
-  
-  
-  .is--hide {
-    display: none;
-  }
 
-  .btn-submit {
-    background-color: #ffa4a4;
-    color: #000000;
-    font-size: 15px;
-    padding: 0.7em;
-    border-radius: 2px;
-    outline: 0;
-    border: 0;
-    width: 100%;
-    cursor: pointer;
-    box-sizing: border-box;
-  }
-  
-  
+.login{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.login h3{
+  text-align: center;
+  color: #ffa4a4;
+  font-weight: 600;
+  font-size: 30px;
+}
+.login .login-form{
+  width: 350px;
+  margin-top: 30px;
+  border: 1px solid #f0f0f0;
+  padding: 35px 30px;
+  border-radius: 10px;
+}
+.login-form h4{
+  font-size: 18px;
+  color: #131428;
+  border-bottom: 4px solid #ffa4a4;
+  padding-left: 10px;
+  text-transform: uppercase;
+}
+.login-form p{
+  font-size: 15px;
+  color: #838282;
+  margin-top: 10px;
+}
+.input-form,.login-form{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 15px;
+}
+.login-form{
+  color: #ffa4a4;
+  font-size: 14px;
+  font-weight: 500;
+}
+.input-form input ,.login-form .input-form input{
+  width: -webkit-fill-available;
+  margin-top: 10px;
+  border: 1px solid #f0f0f0;
+  height: 40px;
+  font-size: 14px;
+  padding: 5px 10px;
+  border-radius: 15px;
+  outline: none;
+}
+.login-form .input-form button{
+  background-color: #ffa4a4;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 20px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.login-form{
+  text-decoration: none;
+  color: #ffa4a4;
+  font-weight: 500;
+}
