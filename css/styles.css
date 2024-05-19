@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fb;
+    margin: 0;
+    padding: 0;
+}
+
+.container1 {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffa4a4;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    padding: 20px 0;
+    color: 7;
+}
+.content {
+    padding: 20px;
+    line-height: 1.6;
+    height: 400px;
+    background-color: #f5f7fb;
+    border-radius: 10px;
+    
+}
+.nav-bar{
+    width: 100%;
+    background-color: #ffa4a4;
+    height: 60px;
+}
