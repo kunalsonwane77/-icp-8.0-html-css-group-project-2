@@ -86,3 +86,14 @@ body{
 .step-txt {
     font-weight: bold;
 }
+
+.text-img {
+    margin: 10px;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.img-step {
+    width: 8vw;
+}
