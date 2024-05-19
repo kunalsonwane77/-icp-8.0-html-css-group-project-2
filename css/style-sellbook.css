@@ -202,6 +202,16 @@ p {
     margin: 1vw;
 }
 
+.copyright {
+    text-align: center;
+    border-top: 1px solid rgb(53, 53, 53);
+}
+
+.copyright p {
+    font-size: 1.5vw;
+}
+
+
 
 
 
