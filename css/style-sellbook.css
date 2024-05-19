@@ -185,6 +185,23 @@ button {
     width: 30%;
 }
 
+.Social-media ul a,
+.Pages ul li a {
+    text-decoration: none;
+    /* margin: 5px; */
+    color: white;
+}
+
+.Social-media ul li,
+.Pages ul li {
+    list-style: none;
+}
+
+.List-footer li,
+p {
+    margin: 1vw;
+}
+
 
 
 
