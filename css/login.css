@@ -1,5 +1,5 @@
 * {
-  
+
   margin: 0;
   padding: 0;
 }
@@ -31,16 +31,18 @@ ul {
 /* navbar */
 
 .navbar {
-  font-size:20px;
+  font-size: 20px;
   padding: 5px 0;
   margin: 0%;
   background-color: #ffa4a4;
 }
 
 
-.logo-1{
+.logo-1 {
+  font-family: Fantasy;
   text-align: left;
   margin-left: 0;
+  color: black;
 }
 
 
@@ -72,51 +74,65 @@ ul {
 
 /* Login */
 
-
-.login{
+.registration,
+.login {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-top: 30px;
 }
-.login h3{
+
+.registration h3,
+.login h3 {
   text-align: center;
   color: #ffa4a4;
   font-weight: 600;
   font-size: 30px;
 }
-.login .login-form{
+
+.registration .registration-form,
+.login .login-form {
   width: 350px;
   margin-top: 30px;
   border: 1px solid #f0f0f0;
   padding: 35px 30px;
-  border-radius: 10px;
 }
-.login-form h4{
+
+.registration-form h4,
+.login-form h4 {
   font-size: 18px;
   color: #131428;
   border-bottom: 4px solid #ffa4a4;
   padding-left: 10px;
   text-transform: uppercase;
 }
-.login-form p{
+
+.registration-form p,
+.login-form p {
   font-size: 15px;
   color: #838282;
   margin-top: 10px;
 }
-.input-form,.login-form{
+
+.registration-form .input-form,
+.login-form .input-form {
   display: flex;
   flex-direction: column;
   gap: 15px;
   margin-top: 15px;
 }
-.login-form{
+
+
+.registration-form label,
+.login-form label {
   color: #ffa4a4;
   font-size: 14px;
   font-weight: 500;
 }
-.input-form input ,.login-form .input-form input{
+
+.registration-form .input-form input,
+.login-form .input-form input {
   width: -webkit-fill-available;
   margin-top: 10px;
   border: 1px solid #f0f0f0;
@@ -126,7 +142,9 @@ ul {
   border-radius: 15px;
   outline: none;
 }
-.login-form .input-form button{
+
+.registration-form .input-form button,
+.login-form .input-form button {
   background-color: #ffa4a4;
   border: none;
   border-radius: 5px;
@@ -137,7 +155,9 @@ ul {
   margin-top: 15px;
   cursor: pointer;
 }
-.login-form{
+
+.registration .registration-form p a,
+.login-form p a {
   text-decoration: none;
   color: #ffa4a4;
   font-weight: 500;
