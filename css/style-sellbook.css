@@ -144,3 +144,13 @@ button {
     background-color: #F6EEC9;
     border: none;
 }
+
+/*footer css*/
+
+.footer-navbar {
+    width: 100%;
+    background-color: #ffa4a4;
+    color: white;
+    padding: 1vw;
+
+}
