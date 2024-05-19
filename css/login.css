@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Catamaran", sans-serif;
+    line-height: 1.6;
+    color: black;
+    background-color: rgb(245, 245, 245);
+    font-size: 1.1rem;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 2rem;
+}
+
+/* navbar */
+
+.navbar {
+    font-size:20px;
+    padding: 5px 0;
+    background-color: #ffa4a4;
+}
+
+.navbar .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    border: none;
+}
+
+.navbar ul {
+    display: flex;
+    justify-self: flex-end;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.navbar a {
+    padding: 0 1rem;
+
+}
+
+.navbar a:hover {
+    color: tomato;
+}
