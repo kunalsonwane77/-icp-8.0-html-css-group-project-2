@@ -129,8 +129,18 @@ input[type="radio"] {
     margin-top: 0.8vw;
 }
 
-
 .input-group label {
     display: block;
     font-size: 1.2vw;
+}
+
+
+button {
+    padding: 0.4vw;
+    width: 10vw;
+    font-size: 1.5vw;
+    margin-top: 14px;
+    border-radius: 5px;
+    background-color: #F6EEC9;
+    border: none;
 }
