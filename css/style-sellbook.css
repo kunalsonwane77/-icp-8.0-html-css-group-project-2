@@ -152,5 +152,11 @@ button {
     background-color: #ffa4a4;
     color: white;
     padding: 1vw;
-
 }
+
+.parent-holder {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
