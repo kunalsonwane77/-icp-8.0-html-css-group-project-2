@@ -33,8 +33,8 @@ h1 {
     height: 60px;
 }
 .about-img{
-    height: 550px;
-    width: 300px;
+    height: 560px;
+    width: 270px;
     border-radius: 20px;
     background-color: #ffa4a4;
     position: relative;
@@ -44,13 +44,24 @@ h1 {
 }
 .abimg{
     height: 450px;
-    width: 250px;
+    width: 270px;
     border-radius: 20px;
     
 }
 .about-content{
     height: 600px;
+   
     display: flex;
+   
   
     
+}
+.content1{
+    height: 50px;
+    width: max-content;
+    background-color: #f5f7fb;
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 15px;
+    border: 2px solid white;
 }
