@@ -6,6 +6,7 @@ body {
 }
 
 .container1 {
+    
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
@@ -30,4 +31,26 @@ h1 {
     width: 100%;
     background-color: #ffa4a4;
     height: 60px;
+}
+.about-img{
+    height: 550px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: #ffa4a4;
+    position: relative;
+    left: 20px;
+    text-align: center;
+    
+}
+.abimg{
+    height: 450px;
+    width: 250px;
+    border-radius: 20px;
+    
+}
+.about-content{
+    height: 600px;
+    display: flex;
+  
+    
 }
