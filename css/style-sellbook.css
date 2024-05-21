@@ -150,6 +150,10 @@ button {
     border: none;
 }
 
+button:hover{
+    background-color: #2D9596;
+}
+
 /*footer css*/
 
 .footer-navbar {
