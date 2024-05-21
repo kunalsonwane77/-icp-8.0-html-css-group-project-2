@@ -5,17 +5,23 @@
 @font-face {
     font-family: "myFont";
     src: url(./font.ttf);
+}.conatiner-holder{
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid red; */
 }
-
-
-
 .Nav-bar{
     width: 100%;
     height: 10vh;
     background-color: #2D9596;
     
 }
-
+.logo-1 {
+    font-family: Jersey;
+    text-align: left;
+    margin-left: 0;
+    color: black;
+  }
 .List{
     display: flex;
     justify-content: end;
@@ -23,22 +29,21 @@
     padding: 10px;
 }
 
-.List li {
+.List li{
     margin: 10px;
     list-style-type: none;
     font-size: 1.2vw;
     text-transform: uppercase;
 }
 
-.List-footer img {
+.List-footer img{
     width: 30px;
 }
 
-.List li a {
+.List li a{
     text-decoration: none;
-    color: black;
+    color: black;
 }
-
 
 .container{
     width: 100%;
@@ -58,16 +63,8 @@
     margin-left: 100px;
     font: size 39px;
     color: #f5f7fb;
-}
-
-.menu-text {
-            text-align:center;
-            color: rgb(24, 22, 22);
-            font-size: 16px;
-            margin-left:50px;
-            
-        }
-        .card{
+} 
+ .card{
             width:200px;
             height: 300px;
             background-color: #F1FADA;
