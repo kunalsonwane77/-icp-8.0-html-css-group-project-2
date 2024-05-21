@@ -407,8 +407,8 @@ p {
         font-size: 1.5vw;
     }
 
-    .txt-info{
-        font-size: 1.7vw;
+    .txt-info, .list-footer a {
+        font-size: 1.8vw;
     }
 
     .footer-info p, .social-media p, .pages p{
