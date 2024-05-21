@@ -321,6 +321,7 @@ p {
         display: flex;
         flex-direction: column;
         width: 100%;
+        
     }
 
     .footer-info{
@@ -397,11 +398,36 @@ p {
     }
 
     .txt-info {
-        font-size: 1.9vw;
+        font-size: 2.7vw;
     }
 
-   
+    .parent-holder{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 
+    .footer-info{
+        width: 100%;
+    }
+
+    .footer-info-2{
+        width: 100%;
+    }
+
+    .social-media p,
+    .footer-info p,
+    .pages p {
+        font-size: 3.5vw;
+    }
+
+    .list-footer a {
+        font-size: 2.5vw;
+    }
+
+    .list-footer li img{
+        width: 3vw;
+    }
 }
 
 /*Tablets Device*/
