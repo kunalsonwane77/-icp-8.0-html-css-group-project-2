@@ -1,0 +1,453 @@
+@font-face {
+    font-family: "myFont";
+    src: url(./font.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "myFont";
+}
+
+.nav-bar {
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(45, 149, 150);
+}
+
+.List {
+    display: flex;
+    justify-content: end;
+    /* align-items: center; */
+    padding: 10px;
+}
+
+.List li {
+    margin: 10px;
+    list-style-type: none;
+    font-size: 1.2vw;
+    text-transform: uppercase;
+}
+
+.List-footer img {
+    width: 30px;
+}
+
+.List li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.containe-holder {
+    width: 100%;
+    height: 100%;
+   background: #F1FADA;
+}
+
+
+
+.contain-parent {
+    width: 100%;
+    height:fit-content;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    padding: 3vw;
+}
+
+
+.text {
+    border: 1px solid #577B8D;
+    width: 45%;
+    border-radius: 5px;
+
+}
+
+.text-header {
+    border-bottom: 1px solid #575655;
+    border-width: 1px;
+    border-radius: 2px;
+    font-size: 3vw;
+    color: rgb(71, 19, 19);
+    text-align: center;
+    font-weight: bold;
+}
+
+.step {
+    /* border: 1px solid red; */
+    background-color: #F6F5F2;
+    margin: 2vw;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 1px gray;
+}
+
+.red {
+    color: red;
+}
+
+.step-txt {
+    font-weight: bold;
+}
+
+.text-img {
+    margin: 10px;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.img-step {
+    width: 8vw;
+}
+
+.form-function {
+    width: 40%;
+    padding: 2vw;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    border: 1px solid rgb(195, 191, 191);
+}
+
+.form-function p {
+    /* text-align: center; */
+    font-size: 1.5vw;
+    border-bottom: 1.9px solid rgb(244, 246, 255);
+}
+
+
+input[type="text"],
+select {
+    width: 80%;
+    padding: 0.5vw;
+    border-radius: 5px;
+    border: none;
+}
+
+input[type="radio"] {
+    margin-left: 0.9vw;
+}
+
+.input-group {
+    margin-top: 0.8vw;
+}
+
+.input-group label {
+    display: block;
+    font-size: 1.2vw;
+}
+
+
+button {
+    padding: 0.4vw;
+    width: 10vw;
+    font-size: 1.5vw;
+    margin-top: 14px;
+    border-radius: 5px;
+    color: white;
+    background-color: #9AD0C2;
+    border: none;
+}
+
+button:hover{
+    background-color: #2D9596;
+}
+
+/*footer css*/
+
+.footer-navbar {
+    width: 100%;
+    background-color: rgb(154, 208, 194);
+    color: white;
+    padding: 1vw;
+}
+
+.parent-holder {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+
+.Social-media p,
+.footer-info p,
+.Pages p {
+    font-size: 1.5vw;
+}
+
+
+.List-footer img {
+    width: 1.8vw;
+}
+
+.List-footer a {
+    font-size: 1.5vw;
+}
+
+.footer-info {
+    width: 30%;
+
+}
+
+.Pages {
+    width: 30%;
+}
+
+.Social-media ul a,
+.Pages ul li a {
+    text-decoration: none;
+    /* margin: 5px; */
+    color: white;
+}
+
+.Social-media ul li,
+.Pages ul li {
+    list-style: none;
+}
+
+.List-footer li,
+p {
+    margin: 1vw;
+}
+
+.copyright {    
+    text-align: center;
+    border-top: 1px solid rgb(53, 53, 53);
+}
+
+.copyright p {
+    font-size: 1.5vw;
+}
+
+
+/*small Device*/
+@media screen and (max-width:600px) {
+
+    /*navbar */
+    .List a{
+        font-size: 2.4vw;
+    }
+
+    /*containe*/
+    .contain-parent {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .text {
+        width: 100%;
+    }
+
+    .form-function {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .img-step {
+        width: 15vw;
+    }
+
+    .step {
+        width: 90%;
+        height: 15vh;
+        margin: auto;
+        padding: 1px 5px;
+        margin-bottom: 15px;
+    }
+
+    .step-containe {
+        font-size: 2.7vw;
+    }
+
+    .form-function p{
+        font-size: 3vw;
+    }
+
+    .input-group{
+        margin: 9px;
+    }
+
+    .input-group label{
+        font-size: 2.9vw;
+    }
+
+    input[type="text"],
+    input[type="file"],
+    select {
+        padding: 1.8vw;
+        font-size: 2.5vw;
+    }
+
+    button{
+        width: 20%;
+        padding: 15px 0;
+        font-size: 3vw;
+    }
+
+    /*footer text*/
+    .Social-media p, .footer-info p, .Pages p{
+        font-size: 3vw;
+    }
+
+    .txt-info{
+        font-size:2.3vw;
+    }
+
+    .List-footer img{
+        width:3vw;
+    }
+
+    .List-footer a{
+        font-size: 2.5vw;
+    }
+
+    .copyright p{
+        font-size: 2vw;
+    }
+}
+
+
+/*Normal Device*/
+@media screen and (min-width:601px) and (max-width:768px) {
+    .contain-parent {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .text-header {
+        font-size: 3.1vw;
+    }
+
+    .text {
+        width: 100%;
+    }
+
+    .img-step {
+        width: 12vw;
+    }
+
+    .step {
+        width: 70%;
+        height: 15vh;
+        margin: auto;
+        padding: 1px 5px;
+        margin-bottom: 15px;
+    }
+
+    .step-containe {
+        font-size: 2.5vw;
+    }
+
+    .form-function {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .form-function p{
+        font-size: 3vw;
+    }
+
+    .input-group{
+        margin: 7px;
+    }
+
+    .input-group label{
+        font-size: 2.5vw;
+    }
+
+    input[type="text"],
+    input[type="file"],
+    select {
+        padding: 1.8vw;
+        font-size: 2vw;
+    }
+
+    button{
+        width: 15%;
+        padding: 10px 0;
+        font-size: 2.5vw;
+    }
+
+    .txt-info{
+        font-size: 1.6vw;
+    }
+}
+
+/*Tablets Device*/
+@media screen and (min-width:769px) and (max-width:992px) {
+    .text-header {
+        font-size: 2.5vw;
+    }
+
+    .img-step {
+        width: 8vw;
+    }
+
+    .step-containe {
+        font-size: 1.5vw;
+    }
+
+    .step {
+        height: 18vh;
+        margin: 15px 10px;
+        padding: 5px 5px;
+    }
+
+    input[type="text"],
+    input[type="file"],
+    select {
+        padding: 0.2vw;
+        font-size: 1.5vw;
+    }
+
+    .txt-info{
+        font-size: 1.5vw;
+    }
+}
+
+
+/*Large Device*/
+@media screen and (min-width:993px) and (max-width:1250px) {
+
+    .text-header {
+        font-size: 2.8vw;
+    }
+
+    .img-step {
+        width: 7vw;
+    }
+
+    .step-containe {
+        font-size: 1.5vw;
+    }
+
+    .step {
+
+        height: 17vh;
+        margin: 19px 13px;
+        padding: 0 6px;
+    }
+
+
+    input[type="text"],
+    input[type="file"],
+    select {
+        padding: 0.2vw;
+        font-size: 1.2vw;
+
+    }
+
+    input[type="radio"] {
+        font-size: 1.2vw;
+    }
+
+    .txt-info{
+        font-size: 1.7vw;
+    }
+}
+
+
+
+
+
