@@ -23,18 +23,18 @@
     padding: 10px;
 }
 
-.List li {
+.list li {
     margin: 10px;
     list-style-type: none;
     font-size: 1.2vw;
     text-transform: uppercase;
 }
 
-.List-footer img {
+.list-footer img {
     width: 30px;
 }
 
-.List li a {
+.list li a {
     text-decoration: none;
     color: black;
 }
@@ -177,11 +177,11 @@ button:hover{
 }
 
 
-.List-footer img {
+.list-footer img {
     width: 1.8vw;
 }
 
-.List-footer a {
+.list-footer a {
     font-size: 1.5vw;
 }
 
@@ -206,7 +206,7 @@ button:hover{
     list-style: none;
 }
 
-.List-footer li,
+.list-footer li,
 p {
     margin: 1vw;
 }
@@ -225,7 +225,7 @@ p {
 @media screen and (max-width:600px) {
 
     /*navbar */
-    .List a{
+    .list a{
         font-size: 2.4vw;
     }
 
@@ -294,11 +294,11 @@ p {
         font-size:2.3vw;
     }
 
-    .List-footer img{
+    .list-footer img{
         width:3vw;
     }
 
-    .List-footer a{
+    .list-footer a{
         font-size: 2.5vw;
     }
 
