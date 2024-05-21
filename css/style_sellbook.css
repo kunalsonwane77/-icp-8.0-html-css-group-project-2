@@ -170,9 +170,9 @@ button:hover{
 }
 
 
-.Social-media p,
+.social-media p,
 .footer-info p,
-.Pages p {
+.pages p {
     font-size: 1.5vw;
 }
 
@@ -190,19 +190,19 @@ button:hover{
 
 }
 
-.Pages {
+.pages {
     width: 30%;
 }
 
-.Social-media ul a,
-.Pages ul li a {
+.social-media ul a,
+.pages ul li a {
     text-decoration: none;
     /* margin: 5px; */
     color: white;
 }
 
-.Social-media ul li,
-.Pages ul li {
+.social-media ul li,
+.pages ul li {
     list-style: none;
 }
 
@@ -286,7 +286,7 @@ p {
     }
 
     /*footer text*/
-    .Social-media p, .footer-info p, .Pages p{
+    .social-media p, .footer-info p, .pages p{
         font-size: 3vw;
     }
 
