@@ -145,7 +145,8 @@ button {
     font-size: 1.5vw;
     margin-top: 14px;
     border-radius: 5px;
-    background-color: #F6EEC9;
+    color: white;
+    background-color: #9AD0C2;
     border: none;
 }
 
