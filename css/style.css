@@ -10,7 +10,7 @@
     height: 100%;
     /* border: 1px solid red; */
 }
-.Nav-bar{
+.nav_bar{
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -18,7 +18,7 @@
     background-color: #2D9596;
     
 }
-.logo-1 {
+.logo_1 {
    
     width: 50%;
     font-family: Jersey;
@@ -26,7 +26,7 @@
     margin-left: 0;
     color: black;
   }
-.List{
+.list{
     width: 50%;
     
     display: flex;
@@ -35,18 +35,18 @@
     padding: 10px;
 }
 
-.List li{
+.list li{
     margin: 10px;
     list-style-type: none;
     font-size: 1.2vw;
     text-transform: uppercase;
 }
 
-.List-footer img{
+.list_footer img{
     width: 30px;
 }
 
-.List li a{
+.list li a{
     text-decoration: none;
     color: black;
 }
@@ -80,7 +80,7 @@
             padding: 05px;
             margin-top: 30px;
         }
-        .card-header-section{
+        .card_header_section{
             
             align-items: center;
             justify-content: center;
@@ -106,12 +106,12 @@
             box-shadow:0 0 10px 5px rgba(0 0 0 0.1);
            border-radius: 5px;
         }
-        .card-hiding{
+        .card_hiding{
             text-align: center;
             font-size:25px;
             margin: 14px;
         }
-        .card-description{
+        .card_description{
             font-size: 10px;
             padding: 0 10px;
             
@@ -123,12 +123,12 @@
             color: #ff3300;
             border-radius: 20px 0px 20px 0px;
         }
-        .cards-container{
+        .cards_container{
             display:flex;
             justify-content:space-around;
              margin-bottom: 10px;
         }
-        .cards-container1{
+        .cards_container1{
             display: flex;
              justify-content: space-around;
              
@@ -145,7 +145,7 @@
 
    
 
-.footer-navbar {
+.footer_navbar {
     width: 100%;
     background-color: #2D9596;
     color: white;
@@ -154,19 +154,19 @@
 }
 
 
-.parent-holder {
+.parent_holder {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
 }
 
-.Social-media {
+.social_media {
     width: 30%;
     /* border: 1px solid red; */
 
 }
 
-.footer-info {
+.footer_info {
     width: 30%;
 
 }
@@ -176,14 +176,14 @@
 
 }
 
-.Social-media ul a,
+.Social_media ul a,
 .Pages ul li a {
     text-decoration: none;
     /* margin: 5px; */
     color: black;
 }
 
-.Social-media ul li,
+.Social_media ul li,
 .Pages ul li {
     list-style: none;
 }
@@ -192,7 +192,7 @@
     border: 1px solid red;
 } */
 
-.List-footer li,
+.list_footer li,
 p {
     margin: 1vw;
 }
@@ -203,7 +203,7 @@ p {
 }
 
 .Pages p,
-.Social-media p {
+.social_media p {
     margin-left: 50px;
 }
 
