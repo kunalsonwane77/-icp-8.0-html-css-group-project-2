@@ -16,49 +16,6 @@ html,body {
     scroll-behavior: smooth;
 }
 
-/* navbar */
-
-.navbar {
-    font-size: 20px;
-    padding: 5px 0;
-    margin: 0%;
-    background-color: #ffa4a4;
-}
-
-
-.logo-1 {
-    font-family: Fantasy;
-    text-align: left;
-    margin-left: 0;
-    color: black;
-}
-
-
-.navbar .container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
-    border: none;
-}
-
-.navbar ul {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-self: flex-end;
-    align-items: end;
-    justify-content: center;
-
-}
-
-.navbar a {
-    padding: 0 15px;
-
-}
-
-.navbar a:hover {
-    color: tomato;
-}
 
 .heading {
     font-family: "Titan One", sans-serif;
