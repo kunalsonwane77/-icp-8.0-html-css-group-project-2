@@ -12,17 +12,23 @@
 }
 .Nav-bar{
     width: 100%;
+    display: flex;
+    justify-content: space-between;
     height: 10vh;
     background-color: #2D9596;
     
 }
 .logo-1 {
+   
+    width: 50%;
     font-family: Jersey;
     text-align: left;
     margin-left: 0;
     color: black;
   }
 .List{
+    width: 50%;
+    
     display: flex;
     justify-content: end;
     /* align-items: center; */
