@@ -1,10 +1,14 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "myFont";
+}
+@font-face {
+  font-family: "myFont";
+  src: url(./font.ttf);
 }
 
 body {
-  font-family: "Catamaran", sans-serif;
   line-height: 250%;
   color: black;
   background-color:#F1FADA;
