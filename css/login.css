@@ -7,7 +7,7 @@ body {
   font-family: "Catamaran", sans-serif;
   line-height: 250%;
   color: black;
-  background-color:#f5f7fb;
+  background-color:#F1FADA;
   font-size: 18px;
 }
 
@@ -33,12 +33,12 @@ ul {
   font-size: 20px;
   padding: 5px 0;
   margin: 0%;
-  background-color: #ffa4a4;
+  background-color:#2D9596;
 }
 
 
 .logo-1 {
-  font-family: Fantasy;
+  font-family: Jersey;
   text-align: left;
   margin-left: 0;
   color: black;
@@ -85,7 +85,7 @@ ul {
 .registration h3,
 .login h3 {
   text-align: center;
-  color: #ffa4a4;
+  color: #2D9596;
   font-weight: 600;
   font-size: 30px;
 }
@@ -94,17 +94,18 @@ ul {
 .login .login-form {
   width: 350px;
   margin-top: 30px;
-  border: 1px solid white;
-  box-shadow: 50px white;
+  border: 1px solid #9AD0C2;
+  border-radius: 20px;
+  box-shadow: 50px #F1FADA;
   padding: 35px 30px;
-  background-color: white;
+  background-color: #F1FADA;
 }
 
 .registration-form h4,
 .login-form h4 {
   font-size: 18px;
   color: #131428;
-  border-bottom: 4px solid #ffa4a4;
+  border-bottom: 4px solid #2D9596;
   padding-left: 10px;
   text-transform: uppercase;
 }
@@ -112,7 +113,7 @@ ul {
 .registration-form p,
 .login-form p {
   font-size: 15px;
-  color: #838282;
+  color: black;
   margin-top: 10px;
 }
 
@@ -127,7 +128,7 @@ ul {
 
 .registration-form label,
 .login-form label {
-  color: #ffa4a4;
+  color: #2D9596;
   font-size: 14px;
   font-weight: 500;
 }
@@ -136,7 +137,7 @@ ul {
 .login-form .input-form input {
   width: -webkit-fill-available;
   margin-top: 10px;
-  border: 1px solid #f0f0f0;
+  border: 1px solid #;
   height: 40px;
   font-size: 14px;
   padding: 5px 10px;
@@ -146,20 +147,25 @@ ul {
 
 .registration-form .input-form button,
 .login-form .input-form button {
-  background-color: #ffa4a4;
+  background-color: #9AD0C2;
   border: none;
   border-radius: 5px;
   padding: 15px 20px;
-  color: #fff;
+  color:  #F1FADA;
   font-size: 15px;
   font-weight: 500;
   margin-top: 15px;
   cursor: pointer;
 }
 
+
+.input-form button:hover{
+  background-color: #2D9596;
+}
+
 .registration .registration-form p a,
 .login-form p a {
   text-decoration: none;
-  color: #ffa4a4;
+  color: #F1FADA;
   font-weight: 500;
 }
