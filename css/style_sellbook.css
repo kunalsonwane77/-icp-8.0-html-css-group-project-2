@@ -62,7 +62,6 @@
     border: 1px solid #577B8D;
     width: 45%;
     border-radius: 5px;
-
 }
 
 .text-header {
@@ -188,6 +187,13 @@ button:hover{
 .footer-info {
     width: 30%;
 
+}
+
+.footer-info-2{
+    width: 40%;
+    display: flex;
+    border: 1px solid red;
+    justify-content: space-between;
 }
 
 .pages {
