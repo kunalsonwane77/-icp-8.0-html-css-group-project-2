@@ -1,36 +1,93 @@
-@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Titan+One&display=swap');
-
+@font-face {
+    font-family: "my font";
+    src: url(./font.ttf);
+}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Gilroy';
+    font-family: "my font";
     scroll-behavior: smooth;
 }
-
-html,body {
-    height: 100%;
-    width: 100%;
-    background-color: #f5f7fb;
+body {
+ 
+    font-family: "my font";
+    background-color: white;
     scroll-behavior: smooth;
 }
+a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  .container-nav {
+    max-width: 1100px;
+    margin: auto;
+    overflow: hidden;
+    padding: 10px 30px;
+  }
+  
+  /* navbar */
+  
+  .navbar {
+    font-size: 20px;
+    padding: 5px 0;
+    margin: 0%;
+    background-color:#2D9596;
+  }
+  
+  
+  .logo-1 {
+    font-family: Jersey;
+    text-align: left;
+    margin-left: 0;
+    color: black;
+  }
+  
+  
+  .navbar .container-nav {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    border: none;
+  }
+  
+  .navbar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-self: flex-end;
+    align-items: end;
+    justify-content: center;
+  
+  }
+  
+  .navbar a {
+    padding: 0 15px;
+  
+  }
+  
+  .navbar a:hover {
+    color: tomato;
+  }
 
 
 .heading {
-    font-family: "Titan One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
     text-align: center;
-    font-size: 53px;
-    color: #3c1c11;
+    color: #2D9596;
+   font-weight: 600;
+   font-size: 40px;
     margin-top: 90px;
 }
 
 .sub-heading {
     text-align: center;
-    margin-top: 23px;
-    color: #3c1c11;
+    margin-top: 20px;
+    color: #2D9596;
     font-size: 13px;
     font-family: "Poetsen One", sans-serif;
     font-style: normal;
@@ -39,7 +96,7 @@ html,body {
 .contact-container {
     width: 80%;
     background-color: white;
-    box-shadow: 0 0 10px 5px #f5e1c6;
+    box-shadow: 0 0 10px 5px #c0d2d2;
     margin: auto;
     border-radius: 20px;
     margin-top: 70px;
@@ -62,7 +119,7 @@ html,body {
 label {
     margin-bottom: -15px;
     margin-left: 15px;
-    color: #3c1c11;
+    color: #2D9596;
     font-size: 14px;
     font-family: "Poetsen One", sans-serif;
     font-style: normal;
@@ -73,8 +130,8 @@ label {
     width: 25vw;
     border-radius: 20px;
     padding: 10px;
-    border: 2px solid #3c1c11;
-    color: #3c1c11;
+    border: 2px solid #2D9596;
+    color: #2D9596;
     font-family: "Poetsen One", sans-serif;
     font-style: normal;
 
@@ -84,8 +141,8 @@ label {
 
     border-radius: 20px;
     padding: 10px;
-    border: 2px solid #3c1c11;
-    color: #3c1c11;
+    border: 2px solid #2D9596;
+    color: #2D9596;
     font-family: "Poetsen One", sans-serif;
     font-style: normal;
 
@@ -94,7 +151,7 @@ label {
 .contact-details h2 {
 
     font-weight: 600;
-    color: #a363aa;
+    color: #2D9596;
     font-size: 40px;
     margin-bottom: 5px;
 }
@@ -107,10 +164,15 @@ label {
     margin-bottom: 40px;
     margin-top: 30px;
     font-size: large;
-    border: 2px solid #ffa4a4;
+    border: 2px solid #9AD0C2;
     border-radius: 5px;
-    background-color: #ffa4a4;
-    color: white;
+    background-color: #9AD0C2;
+    color: black;
+
+}
+.container-button:hover{
+    background-color: #2D9596;
+    border: 2px solid #2D9596;
 
 }
 
@@ -155,11 +217,12 @@ label {
     justify-content: center;
     align-items: center;
     gap: 20px;
+    color: #2D9596;
 }
 
 .info img {
     border-radius: 50%;
-    border: 1px solid #3c1c11;
+    border: 1px solid #2D9596;
     padding: 10px;
     height: 50px;
 }
@@ -185,7 +248,7 @@ label {
     font-style: normal;
     margin-left: 14vw;
     font-size: 30px;
-    color: #3c1c11;
+    color: #2D9596;
 }
 
 .last-para {
@@ -194,7 +257,7 @@ label {
     font-size: 11px;
     font-family: "Poetsen One", sans-serif;
     font-style: normal;
-    color: #3c1c11;
+    color: #2D9596;
     text-align: justify;
 }
 
@@ -203,7 +266,7 @@ label {
     margin-top: 27px;
     padding: 10px;
     font-size: small;
-    color: #3c1c11;
+    color: #2D9596;
 }
 
 .last-container1 {
@@ -220,7 +283,7 @@ label {
     font-weight: 400;
     font-style: normal;
     font-size: 30px;
-    color: #3c1c11;
+    color: #2D9596;
     margin-left: 90px;
 }
 
@@ -236,7 +299,7 @@ label {
     font-size: 11px;
     font-family: "Poetsen One", sans-serif;
     font-style: normal;
-    color: #3c1c11;
+    color: #2D9596;
     text-align: justify;
     margin-left: 90px;
 
