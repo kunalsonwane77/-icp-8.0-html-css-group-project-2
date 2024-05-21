@@ -16,25 +16,25 @@
     background-color: rgb(45, 149, 150);
 }
 
-.List {
+.list {
     display: flex;
     justify-content: end;
     /* align-items: center; */
     padding: 10px;
 }
 
-.List li {
+.list li {
     margin: 10px;
     list-style-type: none;
     font-size: 1.2vw;
     text-transform: uppercase;
 }
 
-.List-footer img {
+.list-footer img {
     width: 30px;
 }
 
-.List li a {
+.list li a {
     text-decoration: none;
     color: black;
 }
@@ -170,18 +170,18 @@ button:hover{
 }
 
 
-.Social-media p,
+.social-media p,
 .footer-info p,
-.Pages p {
+.pages p {
     font-size: 1.5vw;
 }
 
 
-.List-footer img {
+.list-footer img {
     width: 1.8vw;
 }
 
-.List-footer a {
+.list-footer a {
     font-size: 1.5vw;
 }
 
@@ -190,23 +190,23 @@ button:hover{
 
 }
 
-.Pages {
+.pages {
     width: 30%;
 }
 
-.Social-media ul a,
-.Pages ul li a {
+.social-media ul a,
+.pages ul li a {
     text-decoration: none;
     /* margin: 5px; */
     color: white;
 }
 
-.Social-media ul li,
-.Pages ul li {
+.social-media ul li,
+.pages ul li {
     list-style: none;
 }
 
-.List-footer li,
+.list-footer li,
 p {
     margin: 1vw;
 }
@@ -225,7 +225,7 @@ p {
 @media screen and (max-width:600px) {
 
     /*navbar */
-    .List a{
+    .list a{
         font-size: 2.4vw;
     }
 
@@ -286,7 +286,7 @@ p {
     }
 
     /*footer text*/
-    .Social-media p, .footer-info p, .Pages p{
+    .social-media p, .footer-info p, .pages p{
         font-size: 3vw;
     }
 
@@ -294,11 +294,11 @@ p {
         font-size:2.3vw;
     }
 
-    .List-footer img{
+    .list-footer img{
         width:3vw;
     }
 
-    .List-footer a{
+    .list-footer a{
         font-size: 2.5vw;
     }
 
