@@ -82,6 +82,21 @@
             align-items: center;
             justify-content: center;
         }
+        .a {
+            display: inline-block;
+            padding: 10px 20px;
+            color: black;
+            text-decoration: none;
+            border: 1px solid #9AD0C2;
+            border-radius: 2px;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
+            padding: 10px 10px;
+            margin-left: 50px;
+        
+        }
+        .a:hover {
+            background-color: #9AD0C2;
+        }
         .card-img{
             height: 120px;
             width: 195px;
