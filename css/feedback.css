@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "myFont";
+    src: url(./font.ttf);
+}
+.form{
+    height: 100%;
+    width: 100%;
+    text-align: justify;
+    background: #CAE6B2;
+    margin-top: 30px;
+}
+.l1{
+    font-size: 20px;
+    font-family: "myfont";
+}
+.navbar {
+    font-size: 20px;
+    padding: 5px 0;
+    margin: 0%;
+    background-color: #2D9596;
+  }
+  
+  
+  .logo-1 {
+    text-align: left;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 0;
+    color: black;
+  }
+  
+  
+  .navbar .container {
+   display: flex;
+    border: none;
+    justify-content: space-between;
+  }
+  
+  .navbar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-self: flex-end;
+    align-items: end;
+    justify-content: center;
+  
+  }
+  
+  .navbar a {
+    padding: 0 15px;
+  
+  }
+  
+  .navbar a:hover {
+    color: tomato;
+  }
+  .list_footer li,
+p {
+    margin: 1vw;
+}
+
+.copyright {
+    text-align: center;
+    border-top: 1px solid rgb(53, 53, 53);
+}
+
+.Pages p,
+.social_media p {
+    margin-left: 50px;
+}
+
+.sub{
+    border-radius: 5px;
+    background-color: white;
+    margin-bottom: 10px;
+}
