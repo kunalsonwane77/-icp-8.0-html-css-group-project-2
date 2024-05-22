@@ -2,17 +2,6 @@
     margin: 0;
     padding: 0;
 }
-
-@font-face {
-    font-family: "myFont";
-    src: url(./font.ttf);
-}
-
-
-* {
-    margin: 0;
-    padding: 0;
-}
 html,body {
     height: 100%;
     width: 100%;
@@ -20,7 +9,7 @@ html,body {
 }
 .navbar-container{
     width: 100%;
-    padding: 25px;
+    padding: 20px;
     background-color: aqua;
     position: fixed;
 
@@ -29,12 +18,16 @@ html,body {
    
     display: flex;
     justify-content: space-around;
+    align-items: center;
 
 }
 .navbar-links{
     display: flex;
     list-style: none;
     gap: 70px; 
+}
+.nav-login{
+    height: 30px;
 }
 a{
     text-decoration: none;
@@ -51,8 +44,7 @@ a{
     margin-top: 60px;
     justify-content: space-between;
 }
-.container-text{   
-    color: #fff; 
+.container-text{    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -203,213 +195,10 @@ a{
     background-color: rgb(118, 111, 111);
 }
 .footer-container{
-       
-}
-
-
-.navbar {
-    font-size: 20px;
-    padding: 5px 0;
-    margin: 0%;
-    background-color: #2D9596;
-  }
-  
-  
-  .logo-1 {
-    text-align: left;
-    font-size: 30px;
-    font-weight: 700;
-    margin-left: 0;
-    color: black;
-  }
-  
-  
-  .navbar .container {
-   display: flex;
-    border: none;
-    justify-content: space-between;
-  }
-  
-  .navbar ul {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-self: flex-end;
-    align-items: end;
-    justify-content: center;
-  
-  }
-  
-  .navbar a {
-    padding: 0 15px;
-  
-  }
-  
-  .navbar a:hover {
-    color: tomato;
-  }
-
-.container {
-    width: 100%;
-    height: 100%;
-    background-image: url('./../img/books_categories/bg_books.jpg');
-    padding-bottom: 20px;
-}
-
-.titel-header {
-    text-align: center;
-    font-size: 50px;
-    color: #f5f7fb;
-
-}
-
-.titel-books {
-    text-align: center;
-    margin-left: 100px;
-    font: size 39px;
-    color: #f5f7fb;
-}
-
-.card {
-    width: 200px;
-    height: 300px;
-    background-color: #F1FADA;
-    box-shadow: 0 0 10px 5px rgba(0 0 0 0.1);
-    border: 2px solid #fdf4f4;
-    border-radius: 5px;
-    padding: 05px;
-    margin-top: 30px;
-}
-
-.card_header_section {
-
-    align-items: center;
-    justify-content: center;
-}
-
-.a {
-    display: inline-block;
-    padding: 10px 20px;
-    color: black;
-    text-decoration: none;
-    border: 1px solid #9AD0C2;
-    border-radius: 2px;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
-    padding: 10px 10px;
-    margin-left: 50px;
-
-}
-
-.a:hover {
-    background-color: #9AD0C2;
-}
-
-.card-img {
-    height: 120px;
-    width: 195px;
-    box-shadow: 0 0 10px 5px rgba(0 0 0 0.1);
-    border-radius: 5px;
-}
-
-.card_hiding {
-    text-align: center;
-    font-size: 25px;
-    margin: 14px;
-}
-
-.card_description {
-    font-size: 10px;
-    padding: 0 10px;
-
-}
-
-.bt {
-    padding: 5px;
-    background-color: #ffc2b3;
-    border-color: #ff3300;
-    color: #ff3300;
-    border-radius: 20px 0px 20px 0px;
-}
-
-.cards_container {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 10px;
-}
-
-.cards_container1 {
-    display: flex;
-    justify-content: space-around;
+       
 }
 
 
 
-.footer_navbar {
-    width: 100%;
-    background-color: #2D9596;
-    color: white;
-    padding: 1vw;
-
-}
 
 
-.parent_holder {
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-}
-
-.social_media {
-    width: 30%;
-    /* border: 1px solid red; */
-
-}
-
-.footer_info {
-    width: 30%;
-
-}
-
-.Pages {
-    width: 30%;
-
-}
-
-.Social_media ul a,
-.Pages ul li a {
-    text-decoration: none;
-    /* margin: 5px; */
-    color: black;
-}
-
-.Social_media ul li,
-.Pages ul li {
-    list-style: none;
-}
-
-/* .List-footer{
-    border: 1px solid red;
-} */
-
-.list_footer li,
-p {
-    margin: 1vw;
-}
-
-.copyright {
-    text-align: center;
-    border-top: 1px solid rgb(53, 53, 53);
-}
-
-.Pages p,
-.social_media p {
-    margin-left: 50px;
-}
-
-@media sceen and (max-width:600px) {}
-
-@media sceen and (min-width:601px) and (max-width:768px) {}
-
-@media sceen and (min-width:769px) and (max-width:992px) {}
-
-@media sceen and (min-width:993px) and (max-width:1200px) {}
