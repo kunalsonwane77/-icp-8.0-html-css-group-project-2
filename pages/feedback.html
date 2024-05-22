@@ -1,94 +1,43 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Feedback</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./../css/feedback.css" />
-    <link rel="stylesheet" href="./css/style.css" /></head>
-
+   <link rel="stylesheet" href="C:\Users\Netra\OneDrive\Desktop\-icp-8.0-html-css-group-project-2\css\feedback.css">
+</head>
 <body>
-    <nav class="navbar">
-        <div class="container">
-          <div class="logo-1">BookSwap Corner</div>
-          <ul class="nav">
-            <li><a href="./../Index.html">Home</a></li>
-            <li><a href="./login.html">Login</a></li>
-            <li><a href="./contactUs.html">Contact</a></li>
-            <li><a href="#">Book Category</a></li>
-          </ul>
-        </div>
-      </nav>
 
-        <div>
-            <form class="form"> <center>
-                <label for="fl" class="l1"><b>Your Name</b></label><br><br>
-                <input type="text" placeholder="First Name">
-                <input type="text" placeholder="Last Name"><br><br>
-                <label for="ph" class="l1"><b>Your Phone Number</b></label><br><br>
-                <input type="tel" id="ph" placeholder="+91(000)000 0000"><br><br>
-                <label for="mail" class="l1"><b>Your Email Address</b></label><br><br>
-                <input type="email" id="mail"><br><br>
-                <label class="l1"><b>Overall Experience</b></label><br>
-                <div><input type="radio" name="oe" value="Excellent"> Excellent<br>
-                <input type="radio" name="oe" value="Good"> Good<br>
-                <input type="radio" name="oe" value="Average"> Average<br>
-                <input type="radio" name="oe" value="Poor"> Poor<br><br>
-                <label class="l1"><b>Search Functionality</b></label><br>
-                <input type="radio" name="sy" value="Excellent"> Excellent<br>
-                <input type="radio" name="sy" value="Good"> Good<br>
-                <input type="radio" name="sy" value="Average"> Average<br>
-                <input type="radio" name="sy" value="Poor"> Poor<br><br>
-                <label class="l1"><b>Mobile Experience</b></label><br>
-                <input type="radio" name="moe" value="Very Satisfied"> Very Satisfied<br>
-                <input type="radio" name="moe" value="Satisfied"> Satisfied<br>
-                <input type="radio" name="moe" value="Neutral"> Neutral<br>
-                <input type="radio" name="moe" value="Unsatisfied"> Unsatisfied<br>
-                <input type="radio" name="moe" value="Very Unsatisfied"> Very Unsatisfied<br>
-                <input type="radio" name="moe" value="NA"> N/A<br><br>
-                <label><b>Additional Comments</b></label><br>
-                <textarea name="addcom" rows="4" cols="50"></textarea><br><br>
-                <input type="submit" value="Submit Feedback" class="sub">
-                
-            </center>
+    <div class="container">
+        <div class="feedback-form">
+            <h2>Feedback Form</h2>
+            <form>
+                <label for="name" class="label">Name:</label>
+                <input type="text" id="name" name="name" required class="finput">
+
+                <label for="phno" class="label">Your Phone Number</label>
+                <input type="tel" id="phno" placeholder="+91(000)000 0000" class="finput">
+
+                <label for="email" class="label">Email:</label>
+                <input type="email" id="email" name="email" required class="finput">
+
+                <label class="label">Overall Experience</label>
+                <label for=""><img src="https://cdn-icons-png.flaticon.com/512/10851/10851488.png" height="35px" class="e"></label>
+                <input type="radio" name="oe" value="Excellent" class="em">
+
+                <label for=""><img src="https://cdn-icons-png.flaticon.com/128/10851/10851418.png" height="35px" class="e"></label>
+                <input type="radio" name="oe" value="Excellent" class="em">
+
+                <label for=""><img src="https://cdn-icons-png.flaticon.com/128/10851/10851206.png" height="35px" class="e"></label>
+                <input type="radio" name="oe" value="Excellent" class="em">
+
+
+                <label for="feedback" class="label">Feedback:</label>
+                <textarea id="feedback" name="feedback" rows="4" required></textarea>
+
+
+
+                <button type="submit">Submit</button>
             </form>
         </div>
-
-        <div class="footer_navbar">
-            <div class="parent_holder">
-                <div class="social_media">
-                    <p><b>Follow Us</b></p>
-                    <ul class="list_footer">
-                        <li><img src="./img/icon/facebook.png"alt="img1"/><a href="#">FaceBook</a></li>
-                        <li><img src="./img/icon/instagram.png"alt="img2"/><a href="#">Instagram</a></li>
-                        <li><img src="./img/icon/twitter.png"alt="img3"/><a href="#">Twitter</a></li>
-                    </ul>
-                </div>
-
-                <div class="footer_info">
-                    <p><b>Sell Book Online</b></p>
-                    <p>Buy And Sell Used Books Online In India. Buy second hand books and old books near you. Post free
-                        ads to sell books online in India. Click 'need help' for 24x7 customer care on WhatsApp.
-                    </p>
-                </div>
-
-                <div class="Pages">
-                    <p><b>Quick Links</b> </p>
-                    <ul class="list_footer">
-                        <li><a href="#">About BookSwap Corner</a></li>
-                        <li><a href="pages/bookSell.html">Book Sell</a></li>
-                        <li><a href="#">Book Buy</a></li>
-                        <li><a href="#">Feedback</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="copyright">
-                <p>Copyright 2021-24 &#169; <span class="red"> BookSwap Corner </span>All Rights Reserved</p>
-            </div>
-        </div>
-
     </div>
-
 </body>
 
 </html>
