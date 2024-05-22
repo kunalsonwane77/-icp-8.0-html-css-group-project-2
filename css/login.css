@@ -36,9 +36,9 @@ ul {
 
 .navbar {
   font-size: 20px;
-  padding: 5px 0;
-  margin: 0%;
-  background-color: #2D9596;
+  width: 100%;
+    padding: 20px;
+    background-color: aqua;
 }
 
 
@@ -55,8 +55,13 @@ ul {
  display: flex;
   border: none;
   justify-content: space-between;
+  
 }
 
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
 
 
 .navbar ul {
@@ -67,6 +72,10 @@ ul {
   align-items: end;
   justify-content: center;
 
+}
+
+.nav-login{
+    height: 30px;
 }
 
 .navbar a {
