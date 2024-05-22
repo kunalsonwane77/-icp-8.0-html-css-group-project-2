@@ -2,75 +2,111 @@
     font-family: "myFont";
     src: url(./font.ttf);
 }
-.form{
+body,html{
     height: 100%;
-    width: 100%;
-    text-align: justify;
-    background: #CAE6B2;
-    margin-top: 30px;
-}
-.l1{
-    font-size: 20px;
-    font-family: "myfont";
-}
-.navbar {
-    font-size: 20px;
-    padding: 5px 0;
-    margin: 0%;
-    background-color: #2D9596;
-  }
-  
-  
-  .logo-1 {
-    text-align: left;
-    font-size: 30px;
-    font-weight: 700;
-    margin-left: 0;
-    color: black;
-  }
-  
-  
-  .navbar .container {
-   display: flex;
-    border: none;
-    justify-content: space-between;
-  }
-  
-  .navbar ul {
     margin: 0;
-    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+   background-image: url('https://media.istockphoto.com/id/1429973363/photo/old-study-books-with-chalkboard.webp?b=1&s=170667a&w=0&k=20&c=NBCt0xV5IcJSq2VwBs8mjlY8nnYx61nUrBMGu1ZyEyo=');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
     display: flex;
-    justify-self: flex-end;
-    align-items: end;
     justify-content: center;
-  
-  }
-  
-  .navbar a {
-    padding: 0 15px;
-  
-  }
-  
-  .navbar a:hover {
-    color: tomato;
-  }
-  .list_footer li,
-p {
-    margin: 1vw;
+    align-items: center;
+   
 }
 
-.copyright {
+.feedback-form {
+    background: rgba(215, 212, 212, 0.8) ;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 550px;
+    width: 100%;
+    padding: 1%;
+}
+
+h2{
     text-align: center;
-    border-top: 1px solid rgb(53, 53, 53);
+    margin-top: 20px;
+    padding: auto;
+    color: #45a049;
 }
 
-.Pages p,
-.social_media p {
-    margin-left: 50px;
+.label{
+    display: block;
+    margin-left: 5px;
 }
 
-.sub{
+.finput{
+    height: 2%;
+    width: 85%;
+    padding: 10px;
+    margin: 8px;
+    border: 1px solid #ccc;
     border-radius: 5px;
-    background-color: white;
-    margin-bottom: 10px;
+}
+
+.btn{
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 40%;
+    margin-top: 15px;
+}
+
+.subbtn:hover {
+    background-color: #45a049;
+}
+.radio{
+    display: none;
+}
+
+.e{
+    margin: 25px;
+   
+}
+.emoji{
+    display: flex;
+    margin-left: 10%;
+}
+.e:hover{
+    height: 40px;
+    box-shadow: #FFFF00;
+    
+}
+.feedback{
+    width: 90%;
+    border-radius: 5px;
+    border: none;
+    margin: 8px;
+
+}
+
+.navbar{
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.navbar-links{
+    display: flex;
+    list-style: none;
+    gap: 70px; 
+}
+.nav-login{
+    height: 30px;
+}
+.navbar-container{
+    width: 100%;
+    padding: 20px;
+    background-color: aqua;
+    position: fixed;
+
 }
