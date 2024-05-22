@@ -9,10 +9,6 @@
 }
 
 
-<<<<<<< HEAD
-
-.Nav-bar {
-=======
 * {
     margin: 0;
     padding: 0;
@@ -50,13 +46,13 @@ a{
 
 }
 .container{
->>>>>>> 0ee1a8eba3cfd3bc20e780154828d80e0b0f0a80
     width: 100%;
     display: flex;
     margin-top: 60px;
     justify-content: space-between;
 }
-.container-text{    
+.container-text{   
+    color: #fff; 
     display: flex;
     flex-direction: column;
     justify-content: center;
