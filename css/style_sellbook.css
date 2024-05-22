@@ -16,6 +16,10 @@
     background-color: rgb(45, 149, 150);
 }
 
+.logo{
+    
+}
+
 .list {
     display: flex;
     justify-content: end;
@@ -173,13 +177,11 @@ button:hover {
     /* border: 1px solid red; */
 }
 
-
 .social-media p,
 .footer-info p,
 .pages p {
     font-size: 1.5vw;
 }
-
 
 .list-footer img {
     width: 1.8vw;
@@ -191,7 +193,6 @@ button:hover {
 
 .footer-info {
     width: 30%;
-
 }
 
 .footer-info-2 {
@@ -436,11 +437,6 @@ p {
     .copyright p {
         font-size: 2.7vw;
     }
-
-    
-
-   
-    
 }
 
 /*Tablets Device*/
@@ -508,7 +504,6 @@ p {
         margin: 19px 13px;
         padding: 0 6px;
     }
-
 
     input[type="text"],
     input[type="file"],
