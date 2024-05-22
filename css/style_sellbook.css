@@ -342,6 +342,10 @@ p {
         display: flex;
         justify-content: space-between;
     }
+
+    .logo{
+        font-size: 3.5vw;
+    }
 }
 
 
@@ -441,6 +445,10 @@ p {
     .copyright p {
         font-size: 2.7vw;
     }
+
+    .logo{
+        font-size: 3vw;
+    }
 }
 
 /*Tablets Device*/
@@ -483,6 +491,10 @@ p {
 
     .list-img{
         display: none;
+    }
+
+    .logo{
+        font-size: 2.8vw;
     }
 }
 
@@ -527,5 +539,9 @@ p {
 
     .list-img{
         display: none;
+    }
+
+    .logo{
+        font-size: 2.5vw;
     }
 }
