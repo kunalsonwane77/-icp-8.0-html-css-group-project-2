@@ -192,7 +192,7 @@ button {
   .navbar a:hover {
     color: tomato;
   }
-/*footer css*/
+/footer css/
 
 .footer-navbar {
     width: 100%;
@@ -257,6 +257,3 @@ p {
 .copyright p {
     font-size: 1.5vw;
 }
-
-
-

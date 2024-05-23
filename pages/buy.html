@@ -4,10 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="x-icon" href="../img/icon/book.png" />
     <title>Buy Book</title>
     <link rel="stylesheet" href="../css/bookbuy.css"/>
 </head>
-
+<style>
+    .txe{
+font-size:small;
+    }
+    .color{
+        color: tomato;
+    }
+</style>
 <body>
     <!--
     <nav class="navbar">
@@ -26,9 +34,9 @@
    <div class="conatiner-holder">
         <div class="Nav-bar">
             <ul class="List">
-                <li><a href="./../Index.html">Home</a></li>
+                <li><a href="./../index.html">Home</a></li>
                 <li><a href="./../pages/login.html">Login</a></li>
-                <li><a href="./../pages/contactUs.html">Contact</a></li>
+                <li><a href="./../pages/contact.html">Contact</a></li>
                 <li><a href="./../pages/book_categories.html">Book Category</a></li>
             </ul>
         </div>
@@ -40,7 +48,51 @@
         <div class="contain-parent">
             <div class="form-function">
 
-                    <p>Billing Address:</p>
+                    <p><b>Order Summary:</b></p>
+                    <form>
+                        <label>BOOK 1:</label>
+                        <div class="input-group1">
+                            
+                           <img src="./../img/payment/e-5.jpg" alt="book1" class="pic">
+                        <p>Indian Polity <br>
+                        Total:<b>₹739</b><br>
+                        Free Delivery Saturday,25 May.
+                      Details</p>
+                    
+                        </div>
+
+                        <br>
+                        <hr>
+    
+                        <label>BOOK 2:</label>
+                        <div class="input-group1">
+                           
+                           <img src="./../img/payment/e-9.jpg" alt="book2" class="pic">
+                           <p>Internal Security <br>
+                            Total:<b>₹377</b><br>
+                            Free Delivery Saturday,26 May.
+                          Details</p>
+                        </div>
+
+<br>
+<hr>
+<div class="input-group">
+    <label>Total discount :</label>
+    <label>Total :</label>
+   
+</div>
+
+
+
+                    </form>
+                </div>
+            
+    
+    <div class="containe-holder">
+        <div class="contain-parent">
+            <div class="form-function">
+
+                    <p><b>Billing Address:</b></p>
                     <form>
                         
                         <div class="input-group">
@@ -73,13 +125,66 @@
                             <input type="text" name="t6" placeholder="000000" required />
                         </div>
     
-                        <button><a href="payment.html"><b>Payment</b></a></button>
+                        <button><a href="#"><b>Payment</b></a></button>
                     </form>
                 </div>
             </div>
     
         </div>
+        </div>
+
+        <div class="containe-holder">
+            <div class="contain-parent">
+    
+                <div class="form-function">
+                        <p><B>Payment:</B></p>
+                       
+                        <form>
+                            <div class="input-group">
+                                <label>Accepted Cards</label>
+                                
+                            </div>
+                           <br>
+                           <div>
+                            <img src="./../img/payment/visa.png" height="100px" width="100px" />
+                       
+                         
+                            <img src="./../img/payment/discover.png" height="100px" width="100px" />
+                           
+                            <img src="./../img/payment/mastercard.jpeg"height="100px" width="100px" />
+                        </div>
+                            <div class="input-group">
+                                <label>Name on Card</label>
+                                <input type="text" name="t1" placeholder="name " required />
+                            </div>
         
+                            <div class="input-group">
+                                <label>Credit card number</label>
+                                <input type="text" name="t2" placeholder="1111-2222-3333" required />
+                            </div>
+        
+                            <div class="input-group">
+                                <label>Exp month</label>
+                                <input type="text" name="t3" placeholder="expiry month" required />
+                            </div>
+    
+                            <div class="input-group">
+                                <label>Exp year</label>
+                                <input type="text" name="t4" placeholder="expiry year" required />
+                            </div>
+                            
+                            <div class="input-group">
+                                <label>CVV</label>
+                                <input type="text" name="t5" placeholder="cvv" required />
+                            </div>
+        
+                            <button><b>Continue to checkout</b></button>
+                        </form>
+                    </div>
+                </div>
+        
+
+         
         <div class="footer-navbar">
             <div class="parent-holder">
     
