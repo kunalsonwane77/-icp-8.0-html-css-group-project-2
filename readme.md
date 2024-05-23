@@ -12,7 +12,7 @@ The Technologies are use for development is ```HTML5``` and ```CSS3```.HTML5 pro
 
 ---
 
-![output1](./img/output/Screenshot%20(90).png)
+![output1](./img/output/screenshot%20(90).png)
 ## What we learn👨‍💻
 
 1. Standard of writing the code.
