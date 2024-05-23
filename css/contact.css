@@ -15,6 +15,7 @@
 body {
     height: 100%;
     width: 100%;
+    font-family: myFont;
     background-color: #f5f7fb;
 }
 
@@ -48,7 +49,7 @@ a{
 
 .heading {
     text-align: center;
-    color: #2D9596;
+    color: ;
    font-weight: 600;
    font-size: 40px;
     margin-top: 90px;
@@ -57,7 +58,7 @@ a{
 .sub-heading {
     text-align: center;
     margin-top: 20px;
-    color: #2D9596;
+    color: ;
     font-size: 13px;
     font-family: "Poetsen One", sans-serif;
     font-style: normal;
@@ -66,7 +67,7 @@ a{
 .contact-container {
     width: 80%;
     background-color: white;
-    box-shadow: 0 0 10px 5px #c0d2d2;
+    box-shadow: 0 0 10px 2px rgb(177, 174, 174);
     margin: auto;
     border-radius: 20px;
     margin-top: 70px;
@@ -89,7 +90,7 @@ a{
 label {
     margin-bottom: -15px;
     margin-left: 15px;
-    color: #2D9596;
+    color: ;
     font-size: 14px;
     font-family: "Poetsen One", sans-serif;
     font-style: normal;
@@ -100,8 +101,8 @@ label {
     width: 25vw;
     border-radius: 20px;
     padding: 10px;
-    border: 2px solid #2D9596;
-    color: #2D9596;
+    border: 2px solid #;
+    color: ;
     font-family: "Poetsen One", sans-serif;
     font-style: normal;
 
@@ -111,8 +112,8 @@ label {
 
     border-radius: 20px;
     padding: 10px;
-    border: 2px solid #2D9596;
-    color: #2D9596;
+    border: 2px solid ;
+    color: ;
     font-family: "Poetsen One", sans-serif;
     font-style: normal;
 
@@ -121,7 +122,7 @@ label {
 .contact-details h2 {
 
     font-weight: 600;
-    color: #2D9596;
+    color: ;
     font-size: 40px;
     margin-bottom: 5px;
 }
@@ -134,9 +135,9 @@ label {
     margin-bottom: 40px;
     margin-top: 30px;
     font-size: large;
-    border: 2px solid #9AD0C2;
+    border: 2px solid ;
     border-radius: 5px;
-    background-color: #9AD0C2;
+    background-color: ;
     color: black;
 
 }
@@ -187,12 +188,12 @@ label {
     justify-content: center;
     align-items: center;
     gap: 20px;
-    color: #2D9596;
+    color:  ;
 }
 
 .info img {
     border-radius: 50%;
-    border: 1px solid #2D9596;
+    border: 1px solid ;
     padding: 10px;
     height: 50px;
 }
@@ -210,6 +211,7 @@ label {
     height: 30vh;
     width: 20vw;
     margin-left: 90px;
+    box-shadow:0 0 10px 5px rgb(177, 174, 174);
 }
 
 .last-heading {
@@ -218,7 +220,7 @@ label {
     font-style: normal;
     margin-left: 14vw;
     font-size: 30px;
-    color: #2D9596;
+    color: ;
 }
 
 .last-para {
@@ -227,7 +229,7 @@ label {
     font-size: 11px;
     font-family: "Poetsen One", sans-serif;
     font-style: normal;
-    color: #2D9596;
+    color: ;
     text-align: justify;
 }
 
@@ -236,7 +238,7 @@ label {
     margin-top: 27px;
     padding: 10px;
     font-size: small;
-    color: #2D9596;
+    color: ;
 }
 
 .last-container1 {
@@ -253,7 +255,7 @@ label {
     font-weight: 400;
     font-style: normal;
     font-size: 30px;
-    color: #2D9596;
+    color: ;
     margin-left: 90px;
 }
 
@@ -262,6 +264,7 @@ label {
     height: 30vh;
     width: 20vw;
     margin-left: 9vw;
+    box-shadow:0 0 10px 5px rgb(177, 174, 174);
 }
 
 .last-para1 {
@@ -269,7 +272,7 @@ label {
     font-size: 11px;
     font-family: "Poetsen One", sans-serif;
     font-style: normal;
-    color: #2D9596;
+    color: ;
     text-align: justify;
     margin-left: 90px;
 

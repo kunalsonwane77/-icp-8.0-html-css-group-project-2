@@ -1,65 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./../css/feedback.css">
+   <link rel="stylesheet" href="C:\Users\Netra\OneDrive\Desktop\-icp-8.0-html-css-group-project-2\css\feedback.css">
 </head>
-
 <body>
-    <div>
-        <!--Navbar-->
-        <section class="nav-section">
-            <div class="navbar-container">
-                <nav class="navbar">
-                    <h1>BookSwap Corner</h1>
-                    <ul class="navbar-links">
-                        <li><a href="../index.html">HOME</a></li>
-                        <li><a href="./about.html">ABOUT</a></li>
-                        <li><a href="./book_categories.html">CATEGORIES</a></li>
-                        <li><a href="./sellbook.html">BOOK Sell</a></li>
-                        <li><a href="./contact.html">CONTACT</a></li>
-                    </ul>
-                    <a href="./pages/login.html"><img src="../img/icon/login.webp" alt="" class="nav-login"></a>
-                </nav>
+
+    <div class="container">
+        <div class="feedback-form">
+            <h2>Feedback Form</h2>
+            <form>
+                <label for="name" class="label">Name :</label>
+                <input type="text" id="name" name="name" required class="finput" placeholder="Enter your name">
+
+                <label for="phno" class="label">Phone Number :</label>
+                <input type="tel" id="phno" placeholder="+91(000)000 0000" class="finput">
+
+                <label for="email" class="label">Email :</label>
+                <input type="email" id="email" name="email" required class="finput" placeholder="abc@xyz">
+
+                <label class="label">Overall Experience</label>
+            <div class="emoji">
+
+                <label for=""><img src="https://cdn-icons-png.flaticon.com/128/166/166527.png" height="35px" class="e"></label>
+                <input type="radio" name="oe" value="Excellent" class="radio">
+
+                <label for=""><img src="https://cdn-icons-png.flaticon.com/128/166/166535.png" height="35px" class="e"></label>
+                <input type="radio" name="oe" value="Excellent" class="radio">
+
+                <label for=""><img src="https://cdn-icons-png.flaticon.com/128/166/166536.png" height="35px" class="e"></label>
+                <input type="radio" name="oe" value="Excellent" class="radio">
+
+                <label for=""><img src="https://cdn-icons-png.flaticon.com/128/166/166549.png" height="35px" class="e"></label>
+                <input type="radio" name="oe" value="Excellent" class="radio">
+
+                <label for=""><img src="https://cdn-icons-png.flaticon.com/128/166/166522.png" height="35px" class="e"></label>
+                <input type="radio" name="oe" value="Excellent" class="radio">
             </div>
-        </section>
 
 
-        <!--feedback-->
+            <label class="label">Recommendations and Suggestions</label>
+            <div class="emoji">
 
-        <section class="contact-container">
-            <div class="container">
-                <div class="contact-details">
-                    <h1>Feedback</h1>
-                    <label for="name">Full Name :</label>
-                    <input type="text" placeholder="Enter Name" name="" id="name" class="input-box">
-                    <label for="email">Email :</label>
-                    <input type="text" placeholder="Enter Email" name="" id="email" class="input-box">
-                    <label for="email">Phone Number :</label>
-                    <input type="text" placeholder="Enter phone Number" name="" id="Number" class="input-box">
-                    <label class="label">Overall feedbacke</label>
-                    <div class="emoji">
-                        <input type="radio" name="oe" value="Excellent"> 
-                        <label for=""><span style="font-size: 40px;">😖</span></label>&nbsp;&nbsp;
-                        <input type="radio" name="oe" value="Excellent">
-                        <label for=""><span style="font-size: 40px;">😌</span></label>&nbsp;&nbsp;
-                        <input type="radio" name="oe" value="Excellent">
-                        <label for=""><span style="font-size: 40px;">😍</span></label>&nbsp;&nbsp;
+                <label for=""><img src="https://cdn-icons-png.flaticon.com/128/166/166527.png" height="35px" class="e"></label>
+                <input type="radio" name="oe" value="Excellent" class="radio">
 
-                    </div>
-                    <label for="msg">feedback :</label>
-                    <textarea name="Message" placeholder="Do you have any suggestions to improve our website?" rows="5" cols="50" id="msg"
-                        class="textarea-box"></textarea>
+                <label for=""><img src="https://cdn-icons-png.flaticon.com/128/166/166535.png" height="35px" class="e"></label>
+                <input type="radio" name="oe" value="Excellent" class="radio">
 
-                    <button class="container-button">Submit</button>
-                </div>
+                <label for=""><img src="https://cdn-icons-png.flaticon.com/128/166/166536.png" height="35px" class="e"></label>
+                <input type="radio" name="oe" value="Excellent" class="radio">
+
+                <label for=""><img src="https://cdn-icons-png.flaticon.com/128/166/166549.png" height="35px" class="e"></label>
+                <input type="radio" name="oe" value="Excellent" class="radio">
+
+                <label for=""><img src="https://cdn-icons-png.flaticon.com/128/166/166522.png" height="35px" class="e"></label>
+                <input type="radio" name="oe" value="Excellent" class="radio">
             </div>
-        </section>
+
+
+                <label for="feedback">Feedback :</label><br>
+                <textarea id="feedback" name="feedback" rows="4" required class="feedback" placeholder="Start typing here..."></textarea><br>
+
+                <button type="submit" class="btn">Submit</button>
+
+            </form>
+        </div>
     </div>
-
 </body>
 
 </html>
