@@ -17,8 +17,9 @@ html,body {
 .navbar-container{
     width: 100%;
     padding: 20px;
-    background-color: aqua;
+    background-color: rgb(45, 149, 150);
     position: fixed;
+    color: black;
 
 }
 .navbar{
@@ -27,6 +28,13 @@ html,body {
     justify-content: space-around;
     align-items: center;
 
+}
+.navbar h1{
+    font-size: 1.8vw;
+    font-weight: 900;
+}
+.navbar span{
+    color: red;
 }
 
 .navbar-links{
@@ -39,11 +47,12 @@ html,body {
 }
 a{
     text-decoration: none;
+    color: black;
 }
 .main-container{
     padding-left:50px ;
     padding-right:40px ;
-    padding-top: 50px;
+    padding-top: 1px;
 
 }
 .container{
@@ -77,11 +86,11 @@ a{
     background-color: pink;
 }
 .container-img{
-    width: 100%;
+    width: 100%; 
 }
 .container-img img{
     /* height: 500px;
-    width: 600px; */
+    width: 600px;  */
     width: 100%;
     border-radius: 15px;
 }
@@ -133,7 +142,7 @@ a{
 } 
 .quetes-section{
     width: 80%;
-    margin: 60px auto 0 auto;
+    margin: 100px auto 100px auto;
 
 }
 .quetes-container{
@@ -143,8 +152,9 @@ a{
     gap: 120px;
 }
 .quetes-container img{
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
 }
 .auther-name{
     color: rgb(250, 69, 3);
@@ -253,7 +263,7 @@ a{
     .main-container{
         padding-left:70px ;
         padding-right:70px ;
-        padding-top: 230px; 
+        padding-top: 170px; 
     
     }
     .container{
@@ -330,11 +340,13 @@ a{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 2px;
+        gap: 30px;
+        margin-top: 70px;
+        margin-bottom: 70px;
     }
     .quetes-container img{
-        height: 300px;
-        width: 300px;
+        height: 250px;
+        width: 250px;
     }
     .feature-section{
         width: 90%;
