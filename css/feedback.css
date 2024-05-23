@@ -8,168 +8,88 @@
   font-family: "myFont";
   src: url(./font.ttf);
 }
-
-body {
-  color: black;
-  background-color: #f5f7fb;
-  font-size: 18px;
-}
-/* navbar */
-.navbar-container {
-  width: 100%;
-  padding: 15px;
-  background-color: aqua;
-}
-  
-
-.navbar {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-
-}
-
-.navbar-links {
-  display: flex;
-  list-style: none;
-  gap: 70px;
-}
-
-.nav-login {
-  height: 30px;
-}
-
-a {
-  text-decoration: none;
-}
-
-.navbar a:hover {
-  color: tomato;
-}
-
-/* my */
-
-.heading {
-  text-align: center;
-  color: #2D9596;
- font-weight: 600;
- font-size: 40px;
-  margin-top: 90px;
-}
-
-.sub-heading {
-  text-align: center;
-  margin-top: 20px;
-  color: #2D9596;
-  font-size: 13px;
-  font-family: "Poetsen One", sans-serif;
-  font-style: normal;
-}
-
-.contact-container {
-  width: 40%;
-  background-color: white;
-  box-shadow: 0 0 10px 5px #c0d2d2;
-  margin: auto;
-  border-radius: 20px;
-  margin-top: 70px;
+body,html{
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 
 .container {
-  display: flex;
-  justify-content: space-between;
+   background-image: url('https://media.istockphoto.com/id/1429973363/photo/old-study-books-with-chalkboard.webp?b=1&s=170667a&w=0&k=20&c=NBCt0xV5IcJSq2VwBs8mjlY8nnYx61nUrBMGu1ZyEyo=');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
 }
 
-.contact-details {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  gap: 30px;
-  margin-left: 80px;
-  margin-top: 60px;
+.feedback-form {
+    background: rgba(215, 212, 212, 0.8) ;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 550px;
+    width: 100%;
+    padding: 1%;
 }
 
-label {
-  margin-bottom: -15px;
-  margin-left: 15px;
-  color: #2D9596;
-  font-size: 14px;
-  font-family: "Poetsen One", sans-serif;
-  font-style: normal;
+h2{
+    text-align: center;
+    margin-top: 20px;
+    padding: auto;
+    color: #45a049;
 }
 
-.input-box {
-  height: 20px;
-  width: 25vw;
-  border-radius: 20px;
-  padding: 10px;
-  border: 2px solid #2D9596;
-  color: #2D9596;
-  font-family: "Poetsen One", sans-serif;
-  font-style: normal;
-
+.label{
+    display: block;
+    margin-left: 5px;
 }
 
+.finput{
+    height: 2%;
+    width: 85%;
+    padding: 10px;
+    margin: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn{
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 40%;
+    margin-top: 15px;
+}
+
+.subbtn:hover {
+    background-color: #45a049;
+}
+.radio{
+    display: none;
+}
+
+.e{
+    margin: 25px;
+   
+}
 .emoji{
-  display: flex;
+    display: flex;
+    margin-left: 10%;
 }
-
-.textarea-box {
-
-  border-radius: 20px;
-  padding: 10px;
-  border: 2px solid #2D9596;
-  color: #2D9596;
-  font-family: "Poetsen One", sans-serif;
-  font-style: normal;
-
+.e:hover{
+    height: 40px;
+    box-shadow: #FFFF00;
+    
 }
+.feedback{
+    width: 90%;
+    border-radius: 5px;
+    border: none;
+    margin: 8px;
 
-.contact-details h2 {
-
-  font-weight: 600;
-  color: #2D9596;
-  font-size: 40px;
-  margin-bottom: 5px;
-}
-
-.container-button {
-  padding: 10px;
-  width: 8vw;
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 40px;
-  margin-top: 30px;
-  font-size: large;
-  border: 2px solid #9AD0C2;
-  border-radius: 5px;
-  background-color: #9AD0C2;
-  color: black;
-
-}
-.container-button:hover{
-  background-color: #2D9596;
-  border: 2px solid #2D9596;
-
-}
-
-.container-button img {
-
-  height: 25px;
-
-}
-
-.image-container {
-  margin-right: 30px;
-  margin-top: 70px;
-
-}
-
-.image-container img {
-  height: 60vh;
-}
-
-.emoji{
-  text-align: center;
-  margin-left: 20px;
 }
