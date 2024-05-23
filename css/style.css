@@ -88,7 +88,7 @@ a:hover{
     font-size: 15px;
     border-radius: 5px;
     border: none;
-    background-color: pink;
+    background-color: rgb(45, 149, 150);
 }
 .container-img{
     width: 100%; 
@@ -169,9 +169,9 @@ a:hover{
 .text-quetes button{
     padding: 10px 25px;
     font-size: 12px;
-    border-radius: 2px;
+    border-radius: 5px;
     border: none;
-    background-color: pink;
+    background-color:  rgb(45, 149, 150);
 }
 .feature-section{
     width: 90%;
