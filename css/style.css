@@ -28,6 +28,7 @@ html,body {
     align-items: center;
 
 }
+
 .navbar-links{
     display: flex;
     list-style: none;
@@ -204,12 +205,55 @@ a{
 .footer-container{
        
 }
-@media screen and (max-width: 600px) 
+@media screen and (max-width: 700px) 
 {
+
+    .navbar-container{
+        width: 100%;
+        padding: 20px;
+        background-color: aqua;
+        position: fixed;
+    
+    }
+    .navbar{
+       
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    
+    }
+    .navbar h1{
+        display: none;
+    }
+    .navbar-links{
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        text-align: center;
+        gap: 10px; 
+        margin-top: 0px;
+    }
+    .navbar-links li{
+        box-shadow: 0 0 2px 1px rgb(98, 98, 98);
+        padding: 2px;
+        padding: 2px 50px;
+        
+    }
+    .nav-login{
+        height: 30px;
+        margin-top: 10px;
+    }
+    a{
+        text-decoration: none;
+    }
+
+
+
     .main-container{
         padding-left:70px ;
         padding-right:70px ;
-        /* padding-top: 50px; */
+        padding-top: 230px; 
     
     }
     .container{
