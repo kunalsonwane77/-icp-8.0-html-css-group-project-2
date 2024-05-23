@@ -14,6 +14,14 @@
     width: 100%;
     height: 10vh;
     background-color: rgb(45, 149, 150);
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    padding: 13px;
+    font-size: 1.8vw;
+    font-weight: 900;
 }
 
 .list {
@@ -21,6 +29,31 @@
     justify-content: end;
     /* align-items: center; */
     padding: 10px;
+}
+
+.list li a {
+    position: relative;
+    transition: .5s;
+}
+
+.list li a:hover {
+    color: aqua;
+}
+
+.list li a span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    border-bottom: 2px solid aqua;
+    transform: scale(0) translateY(50px);
+    transition: .5s;
+}
+.list li a:hover span{
+    transform: scale(1) translateY(0);
+    opacity: 1;
 }
 
 .list li {
@@ -38,6 +71,7 @@
     text-decoration: none;
     color: black;
 }
+
 
 
 .containe-holder {
@@ -98,15 +132,20 @@
 }
 
 .img-step {
-    width: 8vw;
+    padding: 1vw 1vw;
+    width: 20%;
+    margin: .5vw;
+    border-radius: 5px;
+    /* box-shadow: 1px 3px 1px 1px gray; */
 }
 
 .form-function {
-    width: 40%;
+    width: 35%;
     padding: 2vw;
     background-color: #f1f1f1;
     border-radius: 5px;
     border: 1px solid rgb(195, 191, 191);
+    box-shadow: .2vw .2vw .6vw .1vw gray;
 }
 
 .form-function p {
@@ -118,10 +157,12 @@
 
 input[type="text"],
 select {
-    width: 80%;
+    width: 70%;
     padding: 0.5vw;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     border: none;
+    background-color: rgb(241, 241, 241);
+    border-bottom: 1px solid gray;
 }
 
 input[type="radio"] {
@@ -139,8 +180,8 @@ input[type="radio"] {
 
 
 button {
-    padding: 0.4vw;
-    width: 10vw;
+    padding: 0.8vw;
+    width: 28vw;
     font-size: 1.5vw;
     margin-top: 14px;
     border-radius: 5px;
@@ -153,7 +194,7 @@ button:hover {
     background-color: #2D9596;
 }
 
-.list-img{
+.list-img {
     width: 5vw;
 }
 
@@ -162,7 +203,7 @@ button:hover {
 .footer-navbar {
     width: 100%;
     background-color: rgb(154, 208, 194);
-    color: white;
+    color: black;
     padding: 1vw;
 }
 
@@ -173,13 +214,11 @@ button:hover {
     /* border: 1px solid red; */
 }
 
-
 .social-media p,
 .footer-info p,
 .pages p {
     font-size: 1.5vw;
 }
-
 
 .list-footer img {
     width: 1.8vw;
@@ -191,7 +230,6 @@ button:hover {
 
 .footer-info {
     width: 30%;
-
 }
 
 .footer-info-2 {
@@ -210,7 +248,7 @@ button:hover {
 .pages ul li a {
     text-decoration: none;
     /* margin: 5px; */
-    color: white;
+    color: black;
 }
 
 .social-media ul li,
@@ -221,6 +259,32 @@ button:hover {
 .list-footer li,
 p {
     margin: 1vw;
+}
+
+.list-footer li a{
+    position: relative;
+    transition: .5s;
+}
+
+.list-footer li a:hover{
+    color: aqua;
+}
+
+.list-footer li a span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    border-bottom: 2px solid aqua;
+    transform:  scale(0) translateY(50px);
+    transition: .5s;
+}
+
+.list-footer li a:hover span{
+    transform: scale(1) translateY(0);
+    opacity: 1;
 }
 
 .copyright {
@@ -320,22 +384,26 @@ p {
     .copyright p {
         font-size: 3vw;
     }
-    
-    .parent-holder{
+
+    .parent-holder {
         display: flex;
         flex-direction: column;
         width: 100%;
-        
+
     }
 
-    .footer-info{
+    .footer-info {
         width: 100%;
     }
 
-    .footer-info-2{
+    .footer-info-2 {
         width: 100%;
         display: flex;
         justify-content: space-between;
+    }
+
+    .logo {
+        font-size: 3.5vw;
     }
 }
 
@@ -365,6 +433,10 @@ p {
         margin: auto;
         padding: 1px 5px;
         margin-bottom: 15px;
+    }
+
+    .list li a {
+        font-size: 2.5vw;
     }
 
     .step-containe {
@@ -405,17 +477,17 @@ p {
         font-size: 2.7vw;
     }
 
-    .parent-holder{
+    .parent-holder {
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
 
-    .footer-info{
+    .footer-info {
         width: 100%;
     }
 
-    .footer-info-2{
+    .footer-info-2 {
         width: 100%;
     }
 
@@ -429,7 +501,7 @@ p {
         font-size: 2.5vw;
     }
 
-    .list-footer li img{
+    .list-footer li img {
         width: 3vw;
     }
 
@@ -437,10 +509,9 @@ p {
         font-size: 2.7vw;
     }
 
-    
-
-   
-    
+    .logo {
+        font-size: 3vw;
+    }
 }
 
 /*Tablets Device*/
@@ -481,8 +552,16 @@ p {
         font-size: 2vw;
     }
 
-    .list-img{
+    .list-img {
         display: none;
+    }
+
+    .list li a {
+        font-size: 2.1vw;
+    }
+
+    .logo {
+        font-size: 2.8vw;
     }
 }
 
@@ -502,13 +581,16 @@ p {
         font-size: 1.5vw;
     }
 
+    .list li a {
+        font-size: 1.7vw;
+    }
+
     .step {
 
         height: 17vh;
         margin: 19px 13px;
         padding: 0 6px;
     }
-
 
     input[type="text"],
     input[type="file"],
@@ -526,7 +608,11 @@ p {
         font-size: 1.7vw;
     }
 
-    .list-img{
+    .list-img {
         display: none;
+    }
+
+    .logo {
+        font-size: 2.5vw;
     }
 }
