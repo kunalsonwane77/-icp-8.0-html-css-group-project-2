@@ -93,13 +93,13 @@
 
 
 .text {
-    border: 1px solid #577B8D;
+    /* border: 1px solid #577B8D; */
     width: 45%;
     border-radius: 5px;
 }
 
 .text-header {
-    border-bottom: 1px solid #575655;
+    /* border-bottom: 1px solid #575655; */
     border-width: 1px;
     border-radius: 2px;
     font-size: 3vw;
