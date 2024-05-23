@@ -48,6 +48,11 @@ html,body {
 a{
     text-decoration: none;
     color: black;
+    cursor: pointer;
+    font-size: 17px;
+}
+a:hover{
+    color: red;
 }
 .main-container{
     padding-left:50px ;
