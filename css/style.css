@@ -1,7 +1,14 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: myfont;
 }
+
+@font-face {
+    font-family: "myFont";
+    src: url(./font.ttf);
+  }
+
 html,body {
     height: 100%;
     width: 100%;
