@@ -100,8 +100,6 @@ body{
     
 }
 
-
-
 input[type="text"],
 select {
     width: 80%;
@@ -130,9 +128,7 @@ select {
     display: block;
     font-size:larger;
     margin-bottom: 
-    
 }
-
 
 .position{
     text-align: center;
@@ -156,9 +152,8 @@ button {
     padding: 5px 0;
     margin: 0%;
     background-color: #rgb(45,149,150);
-  }
-  
-  
+ }
+
   .logo-1 {
     text-align: left;
     font-size: 30px;
@@ -192,7 +187,9 @@ button {
   .navbar a:hover {
     color: tomato;
   }
-/footer css/
+
+
+/*footer css*/
 
 .footer-navbar {
     width: 100%;
