@@ -3,9 +3,11 @@ This is BookSwap Corner website where user can buy and sell the books.They are n
 
 The Technologies are use for development is ```HTML5``` and ```CSS3```.HTML5 provides structure to the website.CSS help for to add *colour* or *responsible* for all devices.with help of media query.
 
-![]()
+![output1](../img/output/Screenshot%20(87).png)
 
+---
 
+![output1](../img/output/Screenshot%20(88).png)
 ## What we learn👨‍💻
 
 1. Standard of writing the code.
@@ -14,13 +16,8 @@ The Technologies are use for development is ```HTML5``` and ```CSS3```.HTML5 pro
 4. How To make website responsible.
 5. floder Structure.
 
-
-
-
-
-
 ---
-### Contributors
+### Contributors 🤝
 <a href="https://github.com/pranayhure/-icp-8.0-html-css-group-project-2/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=pranayhure/-icp-8.0-html-css-group-project-2" />
 </a>
