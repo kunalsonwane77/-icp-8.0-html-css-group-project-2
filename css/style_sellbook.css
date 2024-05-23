@@ -18,7 +18,7 @@
     justify-content: space-between;
 }
 
-.logo{
+.logo {
     padding: 13px;
     font-size: 1.8vw;
     font-weight: 900;
@@ -117,6 +117,7 @@
     background-color: #f1f1f1;
     border-radius: 5px;
     border: 1px solid rgb(195, 191, 191);
+    box-shadow: .2vw .2vw .6vw .1vw gray;
 }
 
 .form-function p {
@@ -138,7 +139,6 @@ select {
 
 input[type="radio"] {
     margin-left: 0.9vw;
-    
 }
 
 .input-group {
@@ -152,7 +152,7 @@ input[type="radio"] {
 
 
 button {
-    padding:0.8vw;
+    padding: 0.8vw;
     width: 28vw;
     font-size: 1.5vw;
     margin-top: 14px;
@@ -166,7 +166,7 @@ button:hover {
     background-color: #2D9596;
 }
 
-.list-img{
+.list-img {
     width: 5vw;
 }
 
@@ -330,25 +330,25 @@ p {
     .copyright p {
         font-size: 3vw;
     }
-    
-    .parent-holder{
+
+    .parent-holder {
         display: flex;
         flex-direction: column;
         width: 100%;
-        
+
     }
 
-    .footer-info{
+    .footer-info {
         width: 100%;
     }
 
-    .footer-info-2{
+    .footer-info-2 {
         width: 100%;
         display: flex;
         justify-content: space-between;
     }
 
-    .logo{
+    .logo {
         font-size: 3.5vw;
     }
 }
@@ -381,7 +381,7 @@ p {
         margin-bottom: 15px;
     }
 
-    .list li a{
+    .list li a {
         font-size: 2.5vw;
     }
 
@@ -423,17 +423,17 @@ p {
         font-size: 2.7vw;
     }
 
-    .parent-holder{
+    .parent-holder {
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
 
-    .footer-info{
+    .footer-info {
         width: 100%;
     }
 
-    .footer-info-2{
+    .footer-info-2 {
         width: 100%;
     }
 
@@ -447,7 +447,7 @@ p {
         font-size: 2.5vw;
     }
 
-    .list-footer li img{
+    .list-footer li img {
         width: 3vw;
     }
 
@@ -455,7 +455,7 @@ p {
         font-size: 2.7vw;
     }
 
-    .logo{
+    .logo {
         font-size: 3vw;
     }
 }
@@ -498,15 +498,15 @@ p {
         font-size: 2vw;
     }
 
-    .list-img{
+    .list-img {
         display: none;
     }
 
-    .list li a{
+    .list li a {
         font-size: 2.1vw;
     }
 
-    .logo{
+    .logo {
         font-size: 2.8vw;
     }
 }
@@ -527,11 +527,11 @@ p {
         font-size: 1.5vw;
     }
 
-    .list li a{
+    .list li a {
         font-size: 1.7vw;
     }
 
-    .step{
+    .step {
 
         height: 17vh;
         margin: 19px 13px;
@@ -554,11 +554,11 @@ p {
         font-size: 1.7vw;
     }
 
-    .list-img{
+    .list-img {
         display: none;
     }
 
-    .logo{
+    .logo {
         font-size: 2.5vw;
     }
 }
