@@ -24,9 +24,17 @@ body {
 .navbar-container{
     width: 100%;
     padding: 20px;
-    background-color: aqua;
+    background-color: rgb(45, 149, 150);
 
 }
+.navbar h1{
+    font-size: 1.8vw;
+    font-weight: 900;
+}
+.navbar span{
+    color: red;
+}
+
 .navbar{
    
     display: flex;
@@ -44,6 +52,7 @@ body {
 }
 a{
     text-decoration: none;
+    color: black;
 }
 
 
