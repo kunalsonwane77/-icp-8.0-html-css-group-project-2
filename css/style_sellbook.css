@@ -203,7 +203,7 @@ button:hover {
 .footer-navbar {
     width: 100%;
     background-color: rgb(154, 208, 194);
-    color: white;
+    color: black;
     padding: 1vw;
 }
 
@@ -248,7 +248,7 @@ button:hover {
 .pages ul li a {
     text-decoration: none;
     /* margin: 5px; */
-    color: white;
+    color: black;
 }
 
 .social-media ul li,
