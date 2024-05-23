@@ -62,13 +62,14 @@
                 <p>Book Details:</p>
                 <form>
                     <div class="input-group">
-                        <label for="title">Ad Title</label>
-                        <input type="text" id="title" name="t1" placeholder="Enter your ad title" required />
+                        <!-- <label for="title">Ad Title</label> -->
+                        <input type="text" id="title" name="t1" placeholder="Enter ad title" required />
                     </div>
 
                     <div class="input-group">
-                        <label for="type">Book Type</label>
-                        <select name="t2" id="type">
+                        <!-- <label for="type">Book Type</label> -->
+                        <select name="t2" id="type" required>
+                            <option>Select Book Type</option>
                             <option value="Mystery">Mystery</option>
                             <option value="Horror">Horror</option>
                             <option value="Novel">Novel</option>
@@ -90,13 +91,13 @@
                     </div>
 
                     <div class="input-group">
-                        <label for="qty">Quantity</label>
-                        <input type="text" id="qty" placeholder="Enter Number eg 1,2,3" required />
+                        <!-- <label for="qty">Quantity</label> -->
+                        <input type="text" id="qty" placeholder="Enter Quantity of Book" required />
                     </div>
 
                     <div class="input-group">
-                        <label for="price">Your Price</label>
-                        <input type="text" id="price" placeholder="Enter Selling price of book" required />
+                        <!-- <label for="price">Your Price</label> -->
+                        <input type="text" id="price" placeholder="Enter Selling price" required />
                     </div>
 
                     <button>Post Ad</button>
