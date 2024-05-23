@@ -35,7 +35,7 @@ ul {
 .navbar-container,.navbar-container2 {
   width: 100%;
   padding: 15px;
-  background-color: aqua;
+  background-color: rgb(45,149,150);
 }
 
 .navbar,.navbar2   {
@@ -45,7 +45,7 @@ ul {
 
 }
 
-.navbar-links,.navbar-links2 {
+.list,.list2 {
   display: flex;
   list-style: none;
   gap: 70px;
@@ -59,8 +59,36 @@ a {
   text-decoration: none;
 }
 
-.navbar a:hover {
-  color: tomato;
+.list {
+  display: flex;
+  justify-content: end;
+  /* align-items: center; */
+  padding: 10px;
+}
+
+.list li a {
+  position: relative;
+  transition: .5s;
+}
+
+.list li a:hover {
+  color: aqua;
+}
+
+.list li a span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  border-bottom: 2px solid aqua;
+  transform: scale(0) translateY(50px);
+  transition: .5s;
+}
+.list li a:hover span{
+  transform: scale(1) translateY(0);
+  opacity: 1;
 }
 
 /* Login */
@@ -77,7 +105,7 @@ a {
 .registration h3,
 .login h3 {
   text-align: center;
-  color: #2D9596;
+ color: #265073;
   font-weight: 600;
   font-size: 30px;
 }
@@ -90,7 +118,7 @@ a {
   border-radius: 20px;
   box-shadow: 50px #2d9596;
   padding: 35px 30px;
-  background-color: white;
+  background-color: #;
 }
 
 .registration-form h5,
@@ -122,7 +150,7 @@ a {
 .login-form label {
   margin-bottom: 25px;
   margin-left: 15px;
-  color: #2D9596;
+ color: #265073;
   font-size: 14px;margin: 10px;
   
 }
@@ -134,7 +162,7 @@ a {
   border-radius: 20px;
   padding: 10px;
   border: 2px solid #2D9596;
-  color: #2D9596;
+ color: #265073;
   font-family: "Poetsen One", sans-serif;
   font-style: normal;
 }
