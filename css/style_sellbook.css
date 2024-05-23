@@ -108,7 +108,9 @@
 .img-step {
     padding: 1vw 1vw;
     width: 20%;
-
+    margin: .5vw;
+    border-radius: 5px;
+    /* box-shadow: 1px 3px 1px 1px gray; */
 }
 
 .form-function {
