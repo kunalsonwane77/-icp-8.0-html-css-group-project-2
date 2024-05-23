@@ -3,11 +3,11 @@ This is BookSwap Corner website where user can buy and sell the books.They are n
 
 The Technologies are use for development is ```HTML5``` and ```CSS3```.HTML5 provides structure to the website.CSS help for to add *colour* or *responsible* for all devices.with help of media query.
 
-![output1](../img/output/Screenshot%20(87).png)
+![output1](./img/output/Screenshot%20(87).png)
 
 ---
 
-![output1](../img/output/Screenshot%20(88).png)
+![output1](./img/output/Screenshot%20(89).png)
 ## What we learn👨‍💻
 
 1. Standard of writing the code.
