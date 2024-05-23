@@ -63,12 +63,12 @@
                 <p>Book Details:</p>
                 <form>
                     <div class="input-group">
-                        <!-- <label for="title">Ad Title</label> -->
+                        <label for="title">Ad Title</label>
                         <input type="text" id="title" name="t1" placeholder="Enter ad title" required />
                     </div>
 
                     <div class="input-group">
-                        <!-- <label for="type">Book Type</label> -->
+                        <label for="type">Book Type</label>
                         <select name="t2" id="type" required>
                             <option>Select Book Type</option>
                             <option value="Mystery">Mystery</option>
@@ -86,19 +86,20 @@
                         <input type="radio" value="Fair" name="r1">Fair</input>
                     </div>
 
-                    <div class="input-group">
-                        <label for="file">Upload Photos</label>
-                        <input type="file" id="file" accept="image/*, .pdf/*" required />
-                    </div>
 
                     <div class="input-group">
-                        <!-- <label for="qty">Quantity</label> -->
+                        <label for="qty">Quantity</label>
                         <input type="text" id="qty" placeholder="Enter Quantity of Book" required />
                     </div>
 
                     <div class="input-group">
-                        <!-- <label for="price">Your Price</label> -->
+                        <label for="price">Your Price</label>
                         <input type="text" id="price" placeholder="Enter Selling price" required />
+                    </div>
+
+                    <div class="input-group">
+                        <label for="file">Upload Photos</label>
+                        <input type="file" id="file" accept="image/*, .pdf/*" required />
                     </div>
 
                     <button>Post Ad</button>
