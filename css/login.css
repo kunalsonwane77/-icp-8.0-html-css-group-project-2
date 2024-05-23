@@ -32,26 +32,26 @@ ul {
 }
 
 /* navbar */
-.navbar-container {
+.navbar-container,.navbar-container2 {
   width: 100%;
   padding: 15px;
   background-color: aqua;
 }
 
-.navbar {
+.navbar,.navbar2   {
   display: flex;
   justify-content: space-around;
   align-items: center;
 
 }
 
-.navbar-links {
+.navbar-links,.navbar-links2 {
   display: flex;
   list-style: none;
   gap: 70px;
 }
 
-.nav-login {
+.nav-login ,.nav-login2 {
   height: 30px;
 }
 
@@ -164,4 +164,58 @@ a {
   text-decoration: none;
   color: #F1FADA;
   font-weight: 500;
+}
+
+
+@media screen and (max-width: 600px) {
+  .nav-section{
+    display: none;
+  }
+}
+
+/* Small Devices  */
+@media screen and (max-width: 600px){
+  .nav-section{
+    display: none;
+  }
+
+  .login-form {
+    width: 90%;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+}
+
+ /* Normal Devices  */
+@media screen and (min-width: 601px) and (max-width: 768px){
+  .nav-section{
+    display: none;
+  }
+
+  .login-form {
+    width: 90%;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+}
+
+/* Tablets Devices  */
+@media screen and (min-width: 769px) and (max-width: 992px){
+  .nav-section2{
+    display: none;
+  }
+}
+
+/* Large Devices  */
+@media screen and (min-width: 993px) and (max-width: 1200px){
+  .nav-section2{
+    display: none;
+  }
+}
+
+/* extra Large Devices  */
+@media screen and (min-width: 1200px) and (max-width: 2000px){
+  .nav-section2{
+    display: none;
+  }
 }
