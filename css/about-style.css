@@ -155,7 +155,76 @@ h1 {
 
 /* Tablet Devices */
 @media screen and (min-width: 660px) and (max-width: 880px) {
+    .about-content{
+        width: auto;
+        height: 450px;
+        justify-content: center;
+       }
+       .content{
+        height: 260px;
+        font-size:9px;
+        width: 290px;
+        
+       }
+      .about-img{
+        height: 340px;
+        
+      }
+      .abimg{
+        height: 250px;
+        width: 170px;
+      }
+      .about_img3{
+        height: 400px;
+        width: 400px;
+    }
+    .content2{
+        
+      position: relative;
+      right: 20px;;
+        
+        
+    }
+      .font{
+        font-size: 15px;
+      }
+      .cards{
+        font-size: 15px;
+        width: 550px;
+        margin: 10px;
+    
+      }
+      .container1{
+        height: 370px;
+        margin-top: 0%;
+        border-radius: 30px;
+        
+        
+      }
+      .container1 h1{
+        font-size: 20px;
+      }
+      .content1{
+        font-size: 10px;
+      }
+      .content3{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        top: -200px;
+        
+      }
+      span{
+        position: relative;
+        top: -200px;
+      }
+      .footer-navbar{
+        margin-top: 200px;
+      }
   
+    
 }
 
 /* Large Devices */
