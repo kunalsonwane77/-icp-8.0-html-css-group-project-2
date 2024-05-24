@@ -91,7 +91,7 @@ a:hover{
     border: none;
     background-color: #9AD0C2;
 }
-container-text button:hover{
+.container-text button:hover{
     background-color: #2D9596;
 }
 
@@ -179,7 +179,7 @@ container-text button:hover{
     color: black;
     background-color:  #9AD0C2;
 }
-text-quetes button:hover{
+.text-quetes button:hover{
     background-color:#2D9596 ;
 }
 .feature-section{
