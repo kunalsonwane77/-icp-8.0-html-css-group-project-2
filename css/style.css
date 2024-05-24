@@ -48,6 +48,11 @@ html,body {
 a{
     text-decoration: none;
     color: black;
+    cursor: pointer;
+    font-size: 17px;
+}
+a:hover{
+    color: red;
 }
 .main-container{
     padding-left:50px ;
@@ -86,7 +91,7 @@ a{
     border: none;
     background-color: #9AD0C2;
 }
-container-text button:hover{
+.container-text button:hover{
     background-color: #2D9596;
 }
 
@@ -130,6 +135,7 @@ container-text button:hover{
     width: 150px;
     display: block;
     margin: 0 auto;
+    box-shadow: 0 0 6px 2px rgb(171, 169, 169);
 }
 .book h3{
     text-align: center;
@@ -173,7 +179,7 @@ container-text button:hover{
     color: black;
     background-color:  #9AD0C2;
 }
-text-quetes button:hover{
+.text-quetes button:hover{
     background-color:#2D9596 ;
 }
 .feature-section{
@@ -217,13 +223,133 @@ text-quetes button:hover{
     text-align: center;
     padding-top: 5px;
 }
+
+
+
+
+
 .footer-section{
+ 
+    
+}
+.footer-navbar {
     width: 100%;
-    background-color: rgb(118, 111, 111);
+    background-color: rgb(154, 208, 194);
+    color: black;
+    padding: 1vw;
 }
-.footer-container{
-       
+
+.parent-holder {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    /* border: 1px solid red; */
 }
+
+.social-media p,
+.footer-info p,
+.pages p {
+    font-size: 1.5vw;
+}
+
+.list-footer img {
+    width: 1.8vw;
+}
+
+.list-footer a {
+    font-size: 1.5vw;
+}
+
+.footer-info {
+    width: 30%;
+}
+
+.footer-info-2 {
+    width: 40%;
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    margin-top: 1.5vw;
+}
+
+.pages {
+    width: 30%;
+}
+
+.social-media ul a,
+.pages ul li a {
+    text-decoration: none;
+    /* margin: 5px; */
+    color: black;
+}
+
+.social-media ul li,
+.pages ul li {
+    list-style: none;
+}
+
+.list-footer li,
+p {
+    margin: 1vw;
+}
+
+.list-footer li a{
+    position: relative;
+    transition: .5s;
+}
+
+.list-footer li a:hover{
+    color: red;
+}
+
+.list-footer li a span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    border-bottom: 2px solid red;
+    transform:  scale(0) translateY(50px);
+    transition: .5s;
+}
+
+.list-footer li a:hover span{
+    transform: scale(1) translateY(0);
+    opacity: 1;
+}
+
+.copyright {
+    text-align: center;
+    border-top: 1px solid rgb(53, 53, 53);
+}
+
+.copyright p {
+    font-size: 1.5vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 700px) 
 {
 
@@ -299,13 +425,16 @@ text-quetes button:hover{
         /* text-align: start; */
     }
     .container-text button{
-        padding: 12px 25px;
-        font-size: 15px;
+        padding: 12px 35px;
+        padding-right: 60px;
+        padding-left: 40px;
+        font-size: 12px;
         border-radius: 5px;
         margin-top: 20px;
         margin-bottom: 30px;
         border: none;
-        background-color: pink;
+        text-align: center;
+       
     }
     .container-img{
         width: 100%;
@@ -343,6 +472,15 @@ text-quetes button:hover{
         width: 80%;
         margin: 4px auto 0 auto;
     
+    }
+    .text-quetes button{
+        padding: 10px 40px;
+        font-size: 1.5vwx;
+        padding-right: 65px;
+        border-radius: 5px;
+        border: none;
+        color: black;
+        background-color:  #9AD0C2;
     }
     .quetes-container{
         display: flex;
