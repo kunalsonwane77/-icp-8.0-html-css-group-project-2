@@ -27,6 +27,7 @@ html,body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
 
 }
 .navbar h1{
@@ -410,7 +411,7 @@ p {
     .main-container{
         padding-left:70px ;
         padding-right:70px ;
-        padding-top: 170px; 
+        padding-top: 0px; 
     
     }
     .container{
