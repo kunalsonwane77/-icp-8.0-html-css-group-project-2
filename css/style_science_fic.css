@@ -1,0 +1,228 @@
+@font-face {
+    font-family: "myFont";
+    src: url(./font.ttf);
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "myFont";
+}
+
+.head_section {
+    display: flex;
+    margin-left: 30px;
+}
+
+.scifi_head_img {
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+
+}
+
+h1 {
+    margin-left: 12px;
+    margin-top: 30px;
+    color: #265073;
+}
+
+.scifi_book_card_container {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    height: 400px;
+
+
+}
+
+.book_card {
+    width: 16%;
+    height: 96%;
+    margin: 10px;
+    margin-left: 30px;
+    box-shadow: 0 2px 3px 3px rgba(1, 8, 66, 0.3);
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+    align-items: start;
+    justify-content: start;
+    position: relative;
+    display: inline-block;
+    background-color: white;
+}
+
+
+.book_card a {
+    text-decoration: none;
+    box-shadow: 0 0 2px 2px #9AD0C2;
+    padding: 5px 15px;
+    background-color: #265073;
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+    border-radius: 5px;
+
+}
+
+
+.book_title {
+    color: #265073;
+    font-size: 17px;
+}
+
+.book_price {
+    color: red;
+    text-align: start;
+    margin: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+
+
+}
+
+h2 {
+    margin-left: 30px;
+    font-size: 28px;
+}
+
+
+.book_card_cover {
+    position: relative;
+    display: inline-block;
+}
+
+.book_cover_img {
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+}
+
+
+
+.new_icon {
+
+    object-fit: contain;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 38%;
+    width: 4px;
+    border-radius: 50%;
+    height: auto;
+    max-height: 50px;
+
+
+}
+/* Mobile Devices */
+@media screen and (min-width: 440px) and (max-width: 659px) {
+    .scifi_book_card_container {
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+        height: auto;
+    
+    
+    }
+    
+    .book_card {
+        width: 35%;
+        height:430px;
+        position: relative;
+       
+        
+    }
+    .book_cover_img {
+       
+        height: 50px;
+        object-fit: contain;
+    }
+    
+    .book_card a {
+        
+       
+        position: absolute;
+        bottom:0px;
+        right:30px;
+    
+    }
+    
+}
+
+/* Tablet Devices */
+@media screen and (min-width: 660px) and (max-width: 880px) {
+    .scifi_book_card_container {
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+        height: auto;
+    
+    
+    }
+    
+    .book_card {
+        width: 25%;
+        height:477px;
+        position: relative;
+       
+        
+    }
+    .book_cover_img {
+       
+        height: 70px;
+        object-fit: contain;
+    }
+    
+    .book_card a {
+        
+       
+        position: absolute;
+        bottom:10px;
+        right:45px;
+    
+    }
+    
+}
+
+/* Large Devices */
+@media screen and (min-width: 881px) and (max-width: 1210px) {
+    .scifi_book_card_container {
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+        height: auto;
+    
+    
+    }
+    
+    .book_card {
+        width: 20%;
+        height:485px;
+        position: relative;
+       
+        
+    }
+    .book_cover_img {
+       
+        height: 80px;
+        object-fit: contain;
+    }
+    
+    .book_card a {
+        
+       
+        position: absolute;
+        bottom:0px;
+        right:50px;
+    
+    }
+    
+}
