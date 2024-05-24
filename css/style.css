@@ -85,11 +85,16 @@ a:hover{
 }
 .container-text button{
     padding: 15px 30px;
-    font-size: 15px;
+    font-size: 1.5vw;
+    color: #000;
     border-radius: 5px;
     border: none;
-    background-color: rgb(45, 149, 150);
+    background-color: #9AD0C2;
 }
+container-text button:hover{
+    background-color: #2D9596;
+}
+
 .container-img{
     width: 100%; 
 }
@@ -168,10 +173,14 @@ a:hover{
 }
 .text-quetes button{
     padding: 10px 25px;
-    font-size: 12px;
+    font-size: 1.5vwx;
     border-radius: 5px;
     border: none;
-    background-color:  rgb(45, 149, 150);
+    color: black;
+    background-color:  #9AD0C2;
+}
+text-quetes button:hover{
+    background-color:#2D9596 ;
 }
 .feature-section{
     width: 90%;

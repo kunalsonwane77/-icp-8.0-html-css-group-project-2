@@ -12,11 +12,11 @@
 <body>
     <div class="conatiner-holder">
         <div class="nav-bar">
-            <div class="logo">BookSwap <span class="red">Corner</span></div>
+            <div class="logo">BookSwap <span class="white">Corner</span></div>
             <ul class="list">
                 <li><a href="../index.html">Home<span></span></a></li>
                 <li><a href="./login.html">Login<span></span></a></li>
-                <li><a href="./contactus.html">Contact<span></span></a></li>
+                <li><a href="./contact.html">Contact<span></span></a></li>
                 <li><a href="./book_categories.html">Book Category<span></span></a></li>
             </ul>
         </div>
@@ -26,7 +26,7 @@
         <div class="contain-parent">
 
             <div class="text">
-                <p class="text-header">How to Sell<span class="red"> Book</span></p>
+                <p class="text-header">How to Sell<span class="b"> Book</span></p>
 
                 <div class="step">
                     <div class="text-img">
@@ -63,12 +63,12 @@
                 <p>Book Details:</p>
                 <form>
                     <div class="input-group">
-                        <!-- <label for="title">Ad Title</label> -->
+                        <label for="title">Ad Title</label>
                         <input type="text" id="title" name="t1" placeholder="Enter ad title" required />
                     </div>
 
                     <div class="input-group">
-                        <!-- <label for="type">Book Type</label> -->
+                        <label for="type">Book Type</label>
                         <select name="t2" id="type" required>
                             <option>Select Book Type</option>
                             <option value="Mystery">Mystery</option>
@@ -86,19 +86,20 @@
                         <input type="radio" value="Fair" name="r1">Fair</input>
                     </div>
 
-                    <div class="input-group">
-                        <label for="file">Upload Photos</label>
-                        <input type="file" id="file" accept="image/*, .pdf/*" required />
-                    </div>
 
                     <div class="input-group">
-                        <!-- <label for="qty">Quantity</label> -->
+                        <label for="qty">Quantity</label>
                         <input type="text" id="qty" placeholder="Enter Quantity of Book" required />
                     </div>
 
                     <div class="input-group">
-                        <!-- <label for="price">Your Price</label> -->
+                        <label for="price">Your Price</label>
                         <input type="text" id="price" placeholder="Enter Selling price" required />
+                    </div>
+
+                    <div class="input-group">
+                        <label for="file">Upload Photos</label>
+                        <input type="file" id="file" accept="image/*, .pdf/*" required />
                     </div>
 
                     <button>Post Ad</button>
@@ -134,7 +135,7 @@
                     <ul class="list-footer">
                         <li><a href="./about.html">About<span></span></a></li>
                         <li><a href="./sellbook.html">Book Sell<span></span></a></li>
-                        <li><a href="#">Book Buy<span></span></a></li>
+                        <li><a href="./buy.html">Book Buy<span></span></a></li>
                         <li><a href="./feedback.html">Feedback<span></span></a></li>
                     </ul>
                 </div>

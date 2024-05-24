@@ -14,7 +14,7 @@ body,html{
     font-family: Arial, sans-serif;
 }
 
-.container {
+/*.container {
    background-image: url('https://media.istockphoto.com/id/1429973363/photo/old-study-books-with-chalkboard.webp?b=1&s=170667a&w=0&k=20&c=NBCt0xV5IcJSq2VwBs8mjlY8nnYx61nUrBMGu1ZyEyo=');
     background-size: cover;
     background-position: center;
@@ -23,7 +23,16 @@ body,html{
     justify-content: center;
     align-items: center;
    
-}
+}*/
+
+.container {
+     background-color: white;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 50px;
+     margin-bottom: 50px;
+    
 
 .feedback-form {
     background: rgba(215, 212, 212, 0.8) ;
@@ -38,7 +47,7 @@ h2{
     text-align: center;
     margin-top: 20px;
     padding: auto;
-    color: #45a049;
+    color: rgb(45, 149, 150);
 }
 
 .label{
@@ -52,7 +61,16 @@ h2{
     padding: 10px;
     margin: 8px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 15px;
+}
+
+.finput1{
+    height: 2%;
+    width: 85%;
+    padding: 10px;
+    margin: 8px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
 }
 
 .btn{
@@ -66,7 +84,7 @@ h2{
     margin-top: 15px;
 }
 
-.subbtn:hover {
+.btn:hover {
     background-color: #45a049;
 }
 .radio{
@@ -88,7 +106,7 @@ h2{
 }
 .feedback{
     width: 90%;
-    border-radius: 5px;
+    border-radius: 15px;
     border: none;
     margin: 8px;
 
