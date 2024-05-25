@@ -57,9 +57,9 @@ ul {
   margin-top: 50px;
   border: 1px solid #2d9596;
   border-radius: 20px;
-  box-shadow: 50px rgba(24, 24, 24, 0.2);
+  box-shadow: 10px 10px 5px gray;
   padding: 35px 30px;
-  background-color: whitesmoke;
+  background-color: white;
 }
 
 .registration-form h5,
