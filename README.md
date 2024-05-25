@@ -28,6 +28,9 @@ The Technologies are use for development is ```HTML5``` and ```CSS3```.HTML5 pro
 ---
 
 ![output1](./img/output/feedbackpage.png)
+
+---
+
 ## What we learn👨‍💻
 
 1. Standard of writing the code.

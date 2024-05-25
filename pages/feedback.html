@@ -11,7 +11,7 @@
 
     <div class="conatiner-holder">
         <div class="nav-bar">
-            <div class="logo">BookSwap <span class="red">Corner</span></div>
+            <div class="logo">BookSwap <span style="color: white;">Corner</span></div>
             <ul class="list">
                 <li><a href="../index.html">Home<span></span></a></li>
                 <li><a href="./login.html">Login<span></span></a></li>
@@ -24,59 +24,41 @@
     <div class="container">
         <div class="feedback-form">
             <h2>Feedback Form</h2>
+            <br>
             <form>
                 <label for="aname" class="label">Name :</label>
-                <input type="tel" id="aname" name="aname" required class="finput" placeholder="Enter your name" >
+                <input type="text" id="aname" name="aname" required class="finput" placeholder="Enter your name" >
 
                 <label for="phno" class="label">Phone Number :</label>
                 <input type="tel" id="phno" placeholder="+91(000)000 0000" class="finput">
 
                 <label for="email" class="label">Email :</label>
                 <input type="email" id="email" name="email" required class="finput" placeholder="abc@xyz">
+          
+                <label for="feedback">Feedback :</label><br>
+                <input type="text" name="feedback" rows="4" required class="feedback" placeholder="   Do you have any suggestions to improve our website?"></textarea><br>
+
 
                 <label class="label">Overall Experience</label>
-            <div class="emoji">
+                <div class="emoji">
+    
+                    <label for=""><img src="https://cdn-icons-png.flaticon.com/128/166/166527.png" height="35px" class="e"></label>
+                    <input type="radio" name="oe" value="Excellent" class="radio">
+    
+                    <label for=""><img src="https://cdn-icons-png.flaticon.com/128/166/166535.png" height="35px" class="e"></label>
+                    <input type="radio" name="oe" value="Excellent" class="radio">
+    
+                    <label for=""><img src="https://cdn-icons-png.flaticon.com/128/166/166536.png" height="35px" class="e"></label>
+                    <input type="radio" name="oe" value="Excellent" class="radio">
+    
+                    <label for=""><img src="https://cdn-icons-png.flaticon.com/128/166/166549.png" height="35px" class="e"></label>
+                    <input type="radio" name="oe" value="Excellent" class="radio">
+    
+                    <label for=""><img src="https://cdn-icons-png.flaticon.com/128/166/166522.png" height="35px" class="e"></label>
+                    <input type="radio" name="oe" value="Excellent" class="radio">
+                </div>
 
-                <label for=""><img src="https://cdn-icons-png.flaticon.com/128/166/166527.png" height="35px" class="e"></label>
-                <input type="radio" name="oe" value="Excellent" class="radio">
-
-                <label for=""><img src="https://cdn-icons-png.flaticon.com/128/166/166535.png" height="35px" class="e"></label>
-                <input type="radio" name="oe" value="Excellent" class="radio">
-
-                <label for=""><img src="https://cdn-icons-png.flaticon.com/128/166/166536.png" height="35px" class="e"></label>
-                <input type="radio" name="oe" value="Excellent" class="radio">
-
-                <label for=""><img src="https://cdn-icons-png.flaticon.com/128/166/166549.png" height="35px" class="e"></label>
-                <input type="radio" name="oe" value="Excellent" class="radio">
-
-                <label for=""><img src="https://cdn-icons-png.flaticon.com/128/166/166522.png" height="35px" class="e"></label>
-                <input type="radio" name="oe" value="Excellent" class="radio">
-            </div>
-
-
-            <label class="label">Recommendations and Suggestions</label>
-            <div class="emoji">
-
-                <label for=""><img src="https://cdn-icons-png.flaticon.com/128/166/166527.png" height="35px" class="e"></label>
-                <input type="radio" name="oe" value="Excellent" class="radio">
-
-                <label for=""><img src="https://cdn-icons-png.flaticon.com/128/166/166535.png" height="35px" class="e"></label>
-                <input type="radio" name="oe" value="Excellent" class="radio">
-
-                <label for=""><img src="https://cdn-icons-png.flaticon.com/128/166/166536.png" height="35px" class="e"></label>
-                <input type="radio" name="oe" value="Excellent" class="radio">
-
-                <label for=""><img src="https://cdn-icons-png.flaticon.com/128/166/166549.png" height="35px" class="e"></label>
-                <input type="radio" name="oe" value="Excellent" class="radio">
-
-                <label for=""><img src="https://cdn-icons-png.flaticon.com/128/166/166522.png" height="35px" class="e"></label>
-                <input type="radio" name="oe" value="Excellent" class="radio">
-            </div>
-
-
-                <label for="feedback">Feedback :</label><br>
-                <textarea id="feedback" name="feedback" rows="4" required class="feedback" placeholder="   Start typing here..."></textarea><br>
-
+                
                 <button type="submit" divclass="btn">Submit</button>
 
             </form>

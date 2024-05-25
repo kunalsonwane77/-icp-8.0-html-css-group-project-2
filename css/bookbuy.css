@@ -9,7 +9,14 @@
     box-sizing: border-box;
     font-family: "myFont";
 }
-
+.logo {
+    padding: 13px;
+    font-size: 1.8vw;
+    font-weight: 900;
+}
+.red {
+    color:white;
+}
 body{
     background: color #f5f7fb; ;
 }
@@ -17,7 +24,9 @@ body{
 .Nav-bar {
     width: 100%;
     height: 10vh;
-    background-color:rgb(45,149,150);
+    background-color:rgb(45, 149, 150);
+    display: flex;
+    justify-content: space-between;
 }
 
 .List {
@@ -44,23 +53,15 @@ body{
 }
 
 
-.containe-holder {
+
+.container-parent
+{
     width: 100%;
-    height: 100%;
-   
-}
-
-
-
-.contain-parent {
-    width: 100%;
-    height:fit-content;
-    /* border: 1px solid red; */
+  
     display: flex;
-    justify-content: space-around;
     padding: 3vw;
+    flex-wrap:wrap;
 }
-
 
 .text {
     border: 1px solid #577B8D;
@@ -80,32 +81,48 @@ body{
 }
 
 .form-function {
+    
     width: 40%;
+    margin: 50px auto;
     padding: 2vw;
     background-color: #f1f1f1;
+    box-shadow: .2vw .2vw .6vw .1vw gray;
     border-radius: 5px;
     border: 1px solid rgb(195, 191, 191);
 }
 
+
 .form-function p {
-    /* text-align: center; */
-    font-size: 1.5vw;
+    text-align: center; 
+    font-size: 25px;
     border-bottom: 1.9px solid rgb(244, 246, 255);
 }
 
 
 .pic{
     height: 200px;
-    width: 100;
+    width: 150px;
     
 }
+.item{
+    font-size:1.2vw ;
+    color:  #2D9596;
+}
 
-input[type="text"],
-select {
-    width: 80%;
-    padding: 0.5vw;
-    border-radius: 5px;
-    border: none;
+.parent-container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+input{
+    text-align: left;
+    width: 100%;
+    padding:  18px 18px;
+    border-radius: 15px;
+    border: 1px solid black;
+    font-size: medium;
+    
 }
 
 .input-group {
@@ -115,142 +132,213 @@ select {
 
 .input-group label {
     display: block;
-    font-size: 1.2vw;
+    font-size: 1.0vw;
+    margin-top: 1.vw;
+    margin-bottom: 0.8vw;
+    color: #2D9596;
 }
 
 /* container 1*/
 .input-group1 {
     margin-top: 0.8vw;
+    margin-left:50px ;
     display: flex;
 }
 
 .input-group1 label {
     display: block;
     font-size:larger;
-    margin-bottom: 
+    margin: bottom 8px; 
+    
 }
+
 
 .position{
     text-align: center;
     font-size: 50px;
     padding: 20px;;
+    color: #2D9596;
 }
 
-button {
-    padding: 0.4vw;
-    width: 15vw;
-    font-size: 1.5vw;
+.btn {
+    padding: 15px 15px;
+    width: 20vw;
+    font-size: 15px;
     margin-top: 14px;
     border-radius: 5px;
-    background-color: #e0ded8;
+    background-color:#9AD0C2;
     border: none;
+    color: #F1FADA;
+    cursor: pointer;
     
 }
- /* nav bar css */
- .navbar {
-    font-size: 20px;
-    padding: 5px 0;
-    margin: 0%;
-    background-color: #rgb(45,149,150);
- }
 
-  .logo-1 {
-    text-align: left;
-    font-size: 30px;
-    font-weight: 700;
-    margin-left: 0;
-    color: black;
-  }
-  
-  
-  .navbar .container {
-   display: flex;
-    border: none;
-    justify-content: space-between;
-  }
-  
-  .navbar ul {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-self: flex-end;
-    align-items: end;
-    justify-content: center;
-  
-  }
-  
-  .navbar a {
-    padding: 0 15px;
-  
-  }
-  
-  .navbar a:hover {
-    color: tomato;
-  }
-
-
+.btn:hover
+{
+    background-color: #2D9596;
+}
+ 
 /*footer css*/
 
 .footer-navbar {
     width: 100%;
-    background-color: #577B8D;
-    color: white;
+    background-color:rgb(45, 149, 150);
+    color: black;
     padding: 1vw;
-}
-
-.parent-holder {
+  }
+  
+  .parent-holder {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
-}
-
-
-.Social-media p,
-.footer-info p,
-.Pages p {
+    /* border: 1px solid red; */
+  }
+  
+  .social-media p,
+  .footer-info p,
+  .pages p {
     font-size: 1.5vw;
-}
-
-
-.List-footer img {
+  }
+  
+  .list-footer img {
     width: 1.8vw;
-}
-
-.List-footer a {
+  }
+  
+  .list-footer a {
     font-size: 1.5vw;
-}
-
-.footer-info {
+  }
+  
+  .footer-info {
     width: 30%;
-
-}
-
-.Pages {
+  }
+  
+  .footer-info-2 {
+    width: 40%;
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    margin-top: 1.5vw;
+  }
+  
+  .pages {
     width: 30%;
-}
-
-.Social-media ul a,
-.Pages ul li a {
+  }
+  
+  .social-media ul a,
+  .pages ul li a {
     text-decoration: none;
     /* margin: 5px; */
-    color: white;
-}
-
-.Social-media ul li,
-.Pages ul li {
+    color: black;
+  }
+  
+  .social-media ul li,
+  .pages ul li {
     list-style: none;
-}
-
-.List-footer li,
-p {
+  }
+  
+  .list-footer li,
+  p {
     margin: 1vw;
-}
-
-.copyright {    
+  }
+  
+  .list-footer li a{
+    position: relative;
+    transition: .5s;
+  }
+  
+  .list-footer li a:hover{
+    color: aqua;
+  }
+  
+  .list-footer li a span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    border-bottom: 2px solid aqua;
+    transform:  scale(0) translateY(50px);
+    transition: .5s;
+  }
+  
+  .list-footer li a:hover span{
+    transform: scale(1) translateY(0);
+    opacity: 1;
+  }
+  
+  .copyright {
     text-align: center;
     border-top: 1px solid rgb(53, 53, 53);
-}
-
-.copyright p {
+  }
+  
+  .copyright p {
     font-size: 1.5vw;
+  }
+/* /responsive code/ */
+@media screen and (max-width: 768px) 
+{
+    .dispnone
+    {
+        display: none;
+    }
+    
+    .parent-container
+    {
+        flex-direction: column;
+    }
+    .form-function
+    {
+        width: 95%;
+      
+    }
+    .input-group1{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+    .input-group label
+    {
+        font-size: 17px;
+        padding-top: 15px;
+        
+    }
+    .form-function p
+    {
+        font-size: 20px;
+       padding-top: 25px;
+       padding-bottom: 5px;
+       /* margin-top: 0px; */
+    }
+    /* .image-container
+    {
+        display: flex;
+        justify-content: space-evenly;
+    } */
+    
+.btn {
+    padding: 0px 10px;
+    width: 50%;
+    height: 40px;
+    font-size: 16px;
+    /* margin-top: px;
+    border-radius: 5px; */
+   
+    
+}
+.position{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 20px;
+}
+.item
+{
+    font-size: 17px;
+    padding-top: 25px;
+}
+.Pages p
+{
+    font-size: 20px;
+    margin-bottom: 10px;
 }
