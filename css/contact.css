@@ -19,47 +19,103 @@ body {
     background-color: #f5f7fb;
 }
 
-/*------------------------navbar Start--------------------------------------*/
-
-.navbar-container{
+.nav-bar {
     width: 100%;
-    padding: 20px;
+    height: 10vh;
     background-color: rgb(45, 149, 150);
-
+    display: flex;
+    justify-content: space-between;
 }
-.navbar h1{
+
+.logo {
+    padding: 13px;
     font-size: 1.8vw;
     font-weight: 900;
 }
-.navbar span{
-    color: red;
+
+.list {
+    display: flex;
+    justify-content: end;
+    /* align-items: center; */
+    padding: 10px;
 }
 
-.navbar{
+.list li a {
+    position: relative;
+    transition: .5s;
+}
+
+.list li a:hover {
+    color: aqua;
+}
+
+.list li a span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    border-bottom: 2px solid aqua;
+    transform: scale(0) translateY(50px);
+    transition: .5s;
+}
+.list li a:hover span{
+    transform: scale(1) translateY(0);
+    opacity: 1;
+}
+
+.list li {
+    margin: 10px;
+    list-style-type: none;
+    font-size: 1.2vw;
+    text-transform: uppercase;
+}
+
+.list-footer img {
+    width: 30px;
+}
+
+.list li a {
+    text-decoration: none;
+    color: black;
+}
+.white{
+    color: white;
+}
+
+
+
+
+
+
+
+.navbar-container1{
+    width: 100%;
+    padding: 25px;
+    background-color: aqua;
+    position: fixed;
+    bottom: 0;
+    display: none;
+    
+}
+.navbar1{
    
     display: flex;
     justify-content: space-around;
-    align-items: center;
 
 }
-.navbar-links{
+.navbar-links1{
     display: flex;
     list-style: none;
     gap: 70px; 
 }
-.nav-login{
-    height: 30px;
-}
 a{
     text-decoration: none;
-    color: black;
-}
-a:hover{
-    cursor: pointer;
-    color: red;
 }
 
-/*------------------------navbar End--------------------------------------*/
+
+
 
 
 
@@ -437,7 +493,7 @@ p {
 
     .heading {
         font-size: 40px;
-        margin-top: 50px;
+        margin-top: 30px;
     }
     
     .sub-heading {
@@ -565,6 +621,31 @@ p {
         font-size: 11px;
         text-align: center;
     
+    }
+    .navbar-container1{
+        width: 100%;
+        padding: 20px 0px;
+        background-color: rgb(45, 149, 150);
+        position: fixed;
+        bottom: 0;
+        display: block;
+    }
+    .navbar1{
+       
+        display: flex;
+        justify-content: space-around;
+    
+    }
+    .navbar-links1{
+        display: flex;
+        list-style: none;
+        gap: 70px; 
+    }
+    .navbar-container1 img{
+        height: 30px;
+    }
+    .nav-bar{
+      display: none;
     }
     
 }
